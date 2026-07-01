@@ -300,8 +300,6 @@ CSM Technologies · Data Science Intern                               Feb 2024 �
 ![Cloud Security](https://img.shields.io/badge/Cloud%20Security-Open-00C853?style=for-the-badge)
 ![Fraud Analytics](https://img.shields.io/badge/Fraud%20%26%20Risk%20Analytics-Open-00C853?style=for-the-badge)
 
-**📍 Tempe, AZ · Night shift available (7:30 pm – 7:30 am ET)**
-**F-1 OPT eligible May 2027 · No sponsorship required at start date**
 
 </div>
 
