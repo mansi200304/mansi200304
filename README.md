@@ -247,8 +247,6 @@ End-to-end ML pipeline detecting cloud account fraud — account takeover, crypt
 ![Cloud Security](https://img.shields.io/badge/Cloud%20Security-00C853?style=for-the-badge)
 ![Fraud Analytics](https://img.shields.io/badge/Fraud%20%26%20Risk%20Analytics-00C853?style=for-the-badge)
 
-**📍 Tempe, AZ &nbsp;·&nbsp; Night shift available (7:30 pm – 7:30 am ET) &nbsp;·&nbsp; F-1 OPT May 2027 &nbsp;·&nbsp; No sponsorship required at start**
-
 </div>
 
 ---
