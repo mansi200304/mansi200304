@@ -10,6 +10,16 @@
 
 </div>
 
+<div align="center">
+<img src="assets/intelligence-console.svg" width="100%" alt="The Quiet Operator intelligence console: investigation, cryptography, AI explainability and secure systems" />
+</div>
+
+<div align="center">
+
+[⌁ Research](#02--research-desk) · [◉ Projects](#03--selected-builds) · [⌘ Systems](#05--systems--signals) · [↗ Contact](mailto:mnayak12@asu.edu)
+
+</div>
+
 ---
 
 ## 01 / The operator
@@ -95,7 +105,7 @@ An immersive cyber-physical security simulator built around a holographic threat
 ### ◈ Security Incident Response Framework
 `Python` · `YARA-L` · `Sigma` · `Splunk`
 
-Six MITRE ATT&CK-mapped playbooks spanning phishing, ransomware, insider threats, lateral movement, cloud misconfiguration, and DDoS. Includes detection rules, response workflows, and investigation templates.
+An end-to-end SOC workflow connecting synthetic event generation, rule-based detection, AI-assisted alert triage, IOC extraction, severity scoring, and response playbooks. Six MITRE ATT&CK-mapped scenarios cover phishing, ransomware, insider threats, lateral movement, cloud misconfiguration, and DDoS. Containment is designed with a dry-run path; performance figures are simulation results.\n\n[Explore the framework](https://github.com/mansi200304/security-incident-response-plan)
 
 </td>
 </tr>
@@ -143,15 +153,6 @@ An AI-assisted security learning platform in development, focused on adaptive th
 A cloud-deployed language translation project using neural machine-translation techniques and NLP. The focus is on making translation accessible through a scalable hosted service rather than limiting it to a local experiment.
 
 **Explore:** [Source repository](https://github.com/mansi200304/Cloud-Based-Language-Translator)
-
-### ◈ Security Incident Response Framework
-`Python` · `Sigma` · `YARA-L` · `MITRE ATT&CK`
-
-An end-to-end SOC workflow: synthetic event generation, rule-based detection, AI-assisted alert triage, IOC extraction, severity scoring, response playbooks, containment workflows, and incident metrics. The repository includes six playbooks and a dry-run path for containment actions; reported timing and triage improvements are simulation results, not claims of a live enterprise SOC deployment.
-
-**Explore:** [Source repository](https://github.com/mansi200304/security-incident-response-plan)
-
----
 
 ## 04 / How I approach a system
 
