@@ -49,6 +49,10 @@ Five peer-reviewed publications · One patent filing · Research spanning Stanfo
 A masked-autoencoder approach to quark/gluon classification using 1 million LHC jets. The work combines masked reconstruction, SHAP attribution, and symbolic regression to examine how a neural tagger makes decisions.
 
 [Read the paper](https://openreview.net/attachment?id=nlt2r1P7yU&name=pdf)
+<div align="center">
+<img src="assets/jetmae-architecture.svg" width="100%" alt="JetMAE conceptual pipeline from particle-jet inputs through masked reconstruction and neural tagging to SHAP and symbolic-regression interpretability" />
+</div>
+
 
 ### Quantum Cryptographic Encryption for P2P Robot Communication
 **DRDO Centre for AI and Robotics · 2024**
@@ -56,6 +60,10 @@ A masked-autoencoder approach to quark/gluon classification using 1 million LHC 
 A multi-layer cryptographic framework for peer-to-peer communication across five robotic platforms. Explores post-quantum key encapsulation, AES-256, RSA-4096, ECC, integrity hashing, and key exchange.
 
 [Read the research](https://drive.google.com/file/d/1y1S-4z8VWZj9rMacXHrjvW3rh4hd9Lzg/view)
+<div align="center">
+<img src="assets/robot-cryptography-topology.svg" width="100%" alt="Conceptual secure peer-to-peer communication topology across five robotic platforms" />
+</div>
+
 
 ### Privacy-Preserving Data Verification
 **IJARESM · September 2024**
@@ -63,6 +71,10 @@ A multi-layer cryptographic framework for peer-to-peer communication across five
 An investigation of differential privacy and secure multi-party computation for data verification workflows, with attention to accuracy–privacy trade-offs.
 
 [Read the paper](https://ijaresm.com/uploaded_files/document_file/Mohammed_Emad_Sultan_SiddiqipInA.pdf)
+<div align="center">
+<img src="assets/privacy-verification-flow.svg" width="100%" alt="Conceptual privacy-preserving verification flow using differential privacy and secure multiparty computation" />
+</div>
+
 
 ### Situational Awareness for Autonomous Vehicles
 **Springer · February 2026**
@@ -70,6 +82,10 @@ An investigation of differential privacy and secure multi-party computation for 
 Research into multimodal perception, sensor fusion, and threat scoring for autonomous vehicles operating under adverse conditions.
 
 [Read the chapter](https://link.springer.com/chapter/10.1007/978-3-032-14156-9_35)
+<div align="center">
+<img src="assets/autonomous-vehicle-sensor-fusion.svg" width="100%" alt="Conceptual autonomous vehicle sensor fusion and situational awareness pipeline" />
+</div>
+
 
 ### Future Trends in Cybersecurity and Blockchain
 **Springer · February 2026**
