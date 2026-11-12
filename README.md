@@ -83,11 +83,11 @@ An analysis of AI-enabled threats, post-quantum transition, zero-trust architect
 <td width="50%" valign="top">
 
 ### ◈ Jarvis Cyber Command Center
-`Three.js` · `WebXR` · `GLSL`
+`Three.js` · `WebXR` · `GLSL` · `Web Audio`
 
-An immersive browser-based cybersecurity training environment with a 3D threat globe, simulated attack routes, telemetry, and voice narration.
+An immersive cyber-physical security simulator built around a holographic threat globe. Rotating HUD rings, radar-wave particles, simulated attack routes, a scrolling telemetry console, and a spoken AI-style narrator turn security events into an explorable environment.
 
-**Explore:** [XR & Cybersecurity Portfolio](https://mansi200304.github.io/XR-and-Cybersecurity-Portfolio/)
+**Explore:** [Source repository](https://github.com/mansi200304/VR-Security-Training) · [XR & Cybersecurity Lab](https://mansi200304.github.io/XR-and-Cybersecurity-Portfolio/)
 
 </td>
 <td width="50%" valign="top">
@@ -137,9 +137,37 @@ An AI-assisted security learning platform in development, focused on adaptive th
 </tr>
 </table>
 
+### ◈ Cloud-Based Language Translator
+`Machine Learning` · `NLP` · `AWS`
+
+A cloud-deployed language translation project using neural machine-translation techniques and NLP. The focus is on making translation accessible through a scalable hosted service rather than limiting it to a local experiment.
+
+**Explore:** [Source repository](https://github.com/mansi200304/Cloud-Based-Language-Translator)
+
+### ◈ Security Incident Response Framework
+`Python` · `Sigma` · `YARA-L` · `MITRE ATT&CK`
+
+An end-to-end SOC workflow: synthetic event generation, rule-based detection, AI-assisted alert triage, IOC extraction, severity scoring, response playbooks, containment workflows, and incident metrics. The repository includes six playbooks and a dry-run path for containment actions; reported timing and triage improvements are simulation results, not claims of a live enterprise SOC deployment.
+
+**Explore:** [Source repository](https://github.com/mansi200304/security-incident-response-plan)
+
 ---
 
-## 04 / Systems & signals
+## 04 / How I approach a system
+
+I like projects where the technical pieces form a complete, inspectable workflow—not just a model or interface in isolation.
+
+1. **Observe the system.** Identify assets, data flows, trust boundaries, and the signals that matter.
+2. **Model the risk.** Translate vague concerns into concrete threats, attack paths, failure modes, and measurable requirements.
+3. **Build the mechanism.** Implement detection, cryptographic controls, data processing, or interactive simulation with clear interfaces.
+4. **Validate the result.** Use test cases, controlled simulations, explainability, and measurable checks to understand what works and where it fails.
+5. **Make it legible.** Document the architecture and surface useful evidence so another engineer or analyst can reproduce the reasoning.
+
+That approach connects my work in digital investigation, AI security, cryptography, cloud systems, and immersive training.
+
+---
+
+## 05 / Systems & signals
 
 <div align="center">
 <img src="assets/security-telemetry.svg" width="100%" alt="Illustrative security telemetry visualization showing event flow, signal analysis, and investigation" />
@@ -162,13 +190,13 @@ JavaScript · SQL · Solidity · Three.js · WebXR · GLSL · Streamlit
 
 ---
 
-## 05 / Certifications
+## 06 / Certifications
 
 Anthropic AI Fluency Framework · Claude 101 · Palo Alto Cybersecurity Fundamentals · Google Network Security · Google Manage Security Risks · University of Maryland Cybersecurity for Everyone · IBM Generative AI & Prompt Engineering · Vanderbilt Prompt Engineering · AWS Cloud Foundations
 
 ---
 
-## 06 / Current trajectory
+## 07 / Current trajectory
 
 I’m interested in opportunities and collaborations across:
 
