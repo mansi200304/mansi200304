@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+<title id="t">The Quiet Operator — Intelligence Console</title><desc id="d">An editorial cyber intelligence dashboard in plum, oxblood, warm ivory and antique brass, with research, cryptography, investigation and AI security panels.</desc>
+<defs>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#8D7467" stroke-opacity=".12" stroke-width="1"/></pattern>
+ <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#F7F2EA"/><stop offset="1" stop-color="#E8DED2"/></linearGradient>
+ <linearGradient id="plum" x1="0" x2="1"><stop stop-color="#3A2637"/><stop offset="1" stop-color="#65475A"/></linearGradient>
+</defs>
+<rect width="1200" height="420" rx="20" fill="url(#wash)"/><rect width="1200" height="420" rx="20" fill="url(#grid)"/>
+<rect x="22" y="22" width="1156" height="376" rx="14" fill="#FBF8F2" stroke="#CDBBAA"/>
+<rect x="22" y="22" width="1156" height="48" rx="14" fill="url(#plum)"/><path d="M22 56V70H1178V56" fill="#4A3345"/>
+<circle cx="48" cy="46" r="5" fill="#C6A875"/><circle cx="66" cy="46" r="5" fill="#B88D9B"/><circle cx="84" cy="46" r="5" fill="#E7D8C9"/>
+<text x="108" y="51" font-family="Georgia,serif" font-size="17" letter-spacing="2" fill="#F7F0E7">THE QUIET OPERATOR</text>
+<text x="1138" y="50" text-anchor="end" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.5" fill="#E7D8C9">PERSONAL INTELLIGENCE CONSOLE  /  2026</text>
+<text x="54" y="111" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.4" fill="#92796B">FIELD NOTES  /  RESEARCH × SECURITY × SYSTEMS</text>
+<text x="54" y="151" font-family="Georgia,serif" font-size="32" fill="#2C2227">Observe the signal. Understand the system.</text>
+<text x="54" y="176" font-family="Arial,sans-serif" font-size="13" fill="#76675F">A research-led approach to security engineering, digital investigation and trustworthy AI.</text>
+<g transform="translate(54 205)">
+ <rect width="254" height="154" rx="10" fill="#F3ECE3" stroke="#D8C8B9"/><circle cx="31" cy="31" r="17" fill="#4A3345"/><path d="M22 31h18M31 22v18M25 25l12 12M37 25L25 37" stroke="#E8D7C6" stroke-width="1.5" fill="none"/>
+ <text x="60" y="28" font-family="Arial" font-size="11" letter-spacing="1.2" fill="#8A6B70">01 / INVESTIGATE</text><text x="20" y="70" font-family="Georgia" font-size="19" fill="#30242B">Digital forensics</text><text x="20" y="94" font-family="Arial" font-size="12" fill="#786960">Signals · IOCs · Incident response</text>
+ <path d="M20 126h28l8-10 10 14 10-22 10 18 10-8h18" stroke="#86566C" stroke-width="2" fill="none"/><text x="230" y="132" text-anchor="end" font-family="Arial" font-size="10" fill="#A18568">TRACE</text>
+</g>
+<g transform="translate(324 205)">
+ <rect width="254" height="154" rx="10" fill="#F3ECE3" stroke="#D8C8B9"/><circle cx="31" cy="31" r="17" fill="#4A3345"/><path d="M23 27h16v12H23zM26 23h10v4H26zM28 31h6M28 35h6" stroke="#E8D7C6" stroke-width="1.4" fill="none"/>
+ <text x="60" y="28" font-family="Arial" font-size="11" letter-spacing="1.2" fill="#8A6B70">02 / PROTECT</text><text x="20" y="70" font-family="Georgia" font-size="19" fill="#30242B">Cryptographic systems</text><text x="20" y="94" font-family="Arial" font-size="12" fill="#786960">PQC · Key exchange · Privacy</text>
+ <g fill="#B59668"><rect x="20" y="119" width="9" height="17" rx="2"/><rect x="35" y="111" width="9" height="25" rx="2"/><rect x="50" y="115" width="9" height="21" rx="2"/><rect x="65" y="104" width="9" height="32" rx="2"/><rect x="80" y="108" width="9" height="28" rx="2"/></g><text x="230" y="132" text-anchor="end" font-family="Arial" font-size="10" fill="#A18568">VERIFY</text>
+</g>
+<g transform="translate(594 205)">
+ <rect width="254" height="154" rx="10" fill="#F3ECE3" stroke="#D8C8B9"/><circle cx="31" cy="31" r="17" fill="#4A3345"/><circle cx="31" cy="31" r="8" stroke="#E8D7C6" stroke-width="1.5" fill="none"/><path d="M31 14v9M31 39v9M14 31h9M39 31h9" stroke="#E8D7C6" stroke-width="1.5"/>
+ <text x="60" y="28" font-family="Arial" font-size="11" letter-spacing="1.2" fill="#8A6B70">03 / UNDERSTAND</text><text x="20" y="70" font-family="Georgia" font-size="19" fill="#30242B">AI &amp; explainability</text><text x="20" y="94" font-family="Arial" font-size="12" fill="#786960">Model behavior · SHAP · Trust</text>
+ <path d="M20 130L45 115 70 121 95 105 120 112 145 98 170 104 195 84 220 91" stroke="#86566C" stroke-width="2" fill="none"/><text x="230" y="132" text-anchor="end" font-family="Arial" font-size="10" fill="#A18568">EXPLAIN</text>
+</g>
+<g transform="translate(864 205)">
+ <rect width="282" height="154" rx="10" fill="#F3ECE3" stroke="#D8C8B9"/><circle cx="31" cy="31" r="17" fill="#4A3345"/><path d="M21 31l7 7 14-16" stroke="#E8D7C6" stroke-width="2" fill="none"/>
+ <text x="60" y="28" font-family="Arial" font-size="11" letter-spacing="1.2" fill="#8A6B70">04 / ENGINEER</text><text x="20" y="70" font-family="Georgia" font-size="19" fill="#30242B">Secure systems</text><text x="20" y="94" font-family="Arial" font-size="12" fill="#786960">Cloud · Networks · Resilience</text>
+ <g stroke="#B59668" stroke-width="1.5" fill="none"><path d="M36 126l32-15 34 15 34-15 34 15 34-15"/><circle cx="36" cy="126" r="4" fill="#86566C"/><circle cx="68" cy="111" r="4" fill="#86566C"/><circle cx="102" cy="126" r="4" fill="#86566C"/><circle cx="136" cy="111" r="4" fill="#86566C"/><circle cx="170" cy="126" r="4" fill="#86566C"/><circle cx="204" cy="111" r="4" fill="#86566C"/></g><text x="260" y="132" text-anchor="end" font-family="Arial" font-size="10" fill="#A18568">BUILD</text>
+</g>
+<text x="54" y="383" font-family="Arial" font-size="10" letter-spacing="1.8" fill="#92796B">TEMPE, AZ</text><text x="1146" y="383" text-anchor="end" font-family="Arial" font-size="10" letter-spacing="1.5" fill="#92796B">CALM PRECISION  ·  CURIOUS BY DESIGN</text>
+</svg>
