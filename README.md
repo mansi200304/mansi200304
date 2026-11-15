@@ -111,6 +111,30 @@ Adaptive security-training assistant: generates threat scenarios, extracts IOCs 
 
 <br/>
 
+## ⚙️ Inside the systems
+
+Live diagrams generated from the actual repos — the pipelines, metrics, and data flows as they're built, not as a slide would describe them.
+
+<a href="https://github.com/mansi200304/security-incident-response-plan"><img src="assets/ir-pipeline.svg" width="100%" alt="IR Framework live pipeline: log sources → YARA-L/Sigma detection → Claude triage → P1–P4 severity → containment or analyst queue → MITRE playbooks. MTTD under 2 minutes, triage time down 40%." /></a>
+<sub>**Security Incident Response Framework** — events stream through 12 detection rules; an alert is triaged by Claude, scored P1–P4 against the SLA matrix, then auto-contained or queued. KPIs from the repo's `kpi_tracker.py`. → [repo](https://github.com/mansi200304/security-incident-response-plan)</sub>
+
+<br/><br/>
+
+<a href="https://github.com/mansi200304/cloud-forensics-pipeline"><img src="assets/forensics-chain.svg" width="100%" alt="Cloud Forensics Pipeline: GuardDuty finding → preserve → EBS snapshot → memory capture → isolate, with a SHA-256 hash-chained custody ledger. First evidence preserved in under 10 seconds." /></a>
+<sub>**Cloud Forensics Pipeline** — evidence collected in order of volatility; every action appends to a hash-chained `ledger.jsonl` that `verify_ledger.py` can independently prove intact. → [repo](https://github.com/mansi200304/cloud-forensics-pipeline)</sub>
+
+<br/><br/>
+
+<a href="https://openreview.net/attachment?id=nlt2r1P7yU&name=pdf"><img src="assets/jetmae.svg" width="100%" alt="JetMAE: masked autoencoder over LHC jet images → encoder → latent → decoder → quark/gluon tagger, with SHAP attributions and a symbolic-regression distillation." /></a>
+<sub>**JetMAE** — random constituents are masked and reconstructed to pretrain the tagger; SHAP ranks the physics features it leans on, and symbolic regression distills it into a formula a physicist can argue with. → [paper](https://openreview.net/attachment?id=nlt2r1P7yU&name=pdf)</sub>
+
+<br/><br/>
+
+<a href="https://mansi200304.github.io/XR-and-Cybersecurity-Portfolio/"><img src="assets/threat-globe.svg" width="100%" alt="Jarvis Cyber Command Center: holographic threat globe with attack routes, radar sweep, HUD readouts, and a scrolling telemetry console." /></a>
+<sub>**Jarvis Cyber Command Center** — the WebXR threat globe: attack routes arc across a wireframe earth while a telemetry console narrates MITRE-tagged events. → [live lab](https://mansi200304.github.io/XR-and-Cybersecurity-Portfolio/) · [source](https://github.com/mansi200304/VR-Security-Training)</sub>
+
+<br/>
+
 ## 📄 Research
 
 | Work | Venue | What it does | |

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="JetMAE: masked autoencoder over LHC jet images. Constituents are masked, encoded to a latent, reconstructed, then classified quark versus gluon, with SHAP attributions and symbolic regression exposing the decision.">
+<defs>
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#151D3F"/><stop offset="1" stop-color="#0E142B"/></linearGradient>
+  <linearGradient id="v" x1="0" x2="1"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#6366F1"/></linearGradient>
+  <linearGradient id="o" x1="0" x2="1"><stop offset="0" stop-color="#FB923C"/><stop offset="1" stop-color="#F43F5E"/></linearGradient>
+  <linearGradient id="c" x1="0" x2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+  <linearGradient id="heat" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#1E1B4B"/><stop offset=".5" stop-color="#7C3AED"/><stop offset="1" stop-color="#FB923C"/></linearGradient>
+  <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="3" height="6" fill="#A855F7" opacity=".55"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="280" rx="22" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <text x="32" y="38" font-size="12" font-weight="700" letter-spacing="3" fill="#C4B5FD">JETMAE · INTERPRETABLE NEURAL JET TAGGING</text>
+  <text x="1168" y="38" text-anchor="end" font-size="11" fill="#64748B">1M LHC jets · Stanford PAI26 · NeurIPS 2026</text>
+
+  <!-- INPUT jet image (8x8) -->
+  <g transform="translate(40 70)">
+    <text y="-8" font-size="10" font-weight="700" letter-spacing="2" fill="#94A3B8">JET IMAGE</text>
+    <g>
+      <!-- row 0 -->
+      <rect x="0" y="0" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="20" y="0" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="40" y="0" width="18" height="18" rx="2" fill="#312E81"/><rect x="60" y="0" width="18" height="18" rx="2" fill="#312E81"/><rect x="80" y="0" width="18" height="18" rx="2" fill="#312E81"/><rect x="100" y="0" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="120" y="0" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="140" y="0" width="18" height="18" rx="2" fill="#1E1B4B"/>
+      <!-- row 1 -->
+      <rect x="0" y="20" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="20" y="20" width="18" height="18" rx="2" fill="#312E81"/><rect x="40" y="20" width="18" height="18" rx="2" fill="#4C1D95"/><rect x="60" y="20" width="18" height="18" rx="2" fill="#6D28D9"/><rect x="80" y="20" width="18" height="18" rx="2" fill="#4C1D95"/><rect x="100" y="20" width="18" height="18" rx="2" fill="#312E81"/><rect x="120" y="20" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="140" y="20" width="18" height="18" rx="2" fill="#1E1B4B"/>
+      <!-- row 2 -->
+      <rect x="0" y="40" width="18" height="18" rx="2" fill="#312E81"/><rect x="20" y="40" width="18" height="18" rx="2" fill="#4C1D95"/><rect x="40" y="40" width="18" height="18" rx="2" fill="#7C3AED"/><rect x="60" y="40" width="18" height="18" rx="2" fill="#A855F7"/><rect x="80" y="40" width="18" height="18" rx="2" fill="#7C3AED"/><rect x="100" y="40" width="18" height="18" rx="2" fill="#4C1D95"/><rect x="120" y="40" width="18" height="18" rx="2" fill="#312E81"/><rect x="140" y="40" width="18" height="18" rx="2" fill="#1E1B4B"/>
+      <!-- row 3 -->
+      <rect x="0" y="60" width="18" height="18" rx="2" fill="#312E81"/><rect x="20" y="60" width="18" height="18" rx="2" fill="#6D28D9"/><rect x="40" y="60" width="18" height="18" rx="2" fill="#A855F7"/><rect x="60" y="60" width="18" height="18" rx="2" fill="#FB923C"/><rect x="80" y="60" width="18" height="18" rx="2" fill="#C084FC"/><rect x="100" y="60" width="18" height="18" rx="2" fill="#6D28D9"/><rect x="120" y="60" width="18" height="18" rx="2" fill="#312E81"/><rect x="140" y="60" width="18" height="18" rx="2" fill="#1E1B4B"/>
+      <!-- row 4 -->
+      <rect x="0" y="80" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="20" y="80" width="18" height="18" rx="2" fill="#4C1D95"/><rect x="40" y="80" width="18" height="18" rx="2" fill="#7C3AED"/><rect x="60" y="80" width="18" height="18" rx="2" fill="#C084FC"/><rect x="80" y="80" width="18" height="18" rx="2" fill="#7C3AED"/><rect x="100" y="80" width="18" height="18" rx="2" fill="#4C1D95"/><rect x="120" y="80" width="18" height="18" rx="2" fill="#312E81"/><rect x="140" y="80" width="18" height="18" rx="2" fill="#312E81"/>
+      <!-- row 5 -->
+      <rect x="0" y="100" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="20" y="100" width="18" height="18" rx="2" fill="#312E81"/><rect x="40" y="100" width="18" height="18" rx="2" fill="#4C1D95"/><rect x="60" y="100" width="18" height="18" rx="2" fill="#6D28D9"/><rect x="80" y="100" width="18" height="18" rx="2" fill="#4C1D95"/><rect x="100" y="100" width="18" height="18" rx="2" fill="#312E81"/><rect x="120" y="100" width="18" height="18" rx="2" fill="#4C1D95"/><rect x="140" y="100" width="18" height="18" rx="2" fill="#1E1B4B"/>
+      <!-- row 6 -->
+      <rect x="0" y="120" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="20" y="120" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="40" y="120" width="18" height="18" rx="2" fill="#312E81"/><rect x="60" y="120" width="18" height="18" rx="2" fill="#312E81"/><rect x="80" y="120" width="18" height="18" rx="2" fill="#312E81"/><rect x="100" y="120" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="120" y="120" width="18" height="18" rx="2" fill="#312E81"/><rect x="140" y="120" width="18" height="18" rx="2" fill="#1E1B4B"/>
+      <!-- row 7 -->
+      <rect x="0" y="140" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="20" y="140" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="40" y="140" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="60" y="140" width="18" height="18" rx="2" fill="#312E81"/><rect x="80" y="140" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="100" y="140" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="120" y="140" width="18" height="18" rx="2" fill="#1E1B4B"/><rect x="140" y="140" width="18" height="18" rx="2" fill="#1E1B4B"/>
+    </g>
+    <!-- masks: cycle on/off -->
+    <g fill="url(#hatch)" stroke="#A855F7" stroke-width="1">
+      <rect x="40" y="20" width="18" height="18" rx="2"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.1;.55;.65;1" dur="8s" repeatCount="indefinite"/></rect>
+      <rect x="80" y="40" width="18" height="18" rx="2"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.14;.55;.65;1" dur="8s" repeatCount="indefinite"/></rect>
+      <rect x="60" y="80" width="18" height="18" rx="2"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.18;.55;.65;1" dur="8s" repeatCount="indefinite"/></rect>
+      <rect x="20" y="60" width="18" height="18" rx="2"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.22;.55;.65;1" dur="8s" repeatCount="indefinite"/></rect>
+      <rect x="100" y="100" width="18" height="18" rx="2"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.26;.55;.65;1" dur="8s" repeatCount="indefinite"/></rect>
+      <rect x="120" y="40" width="18" height="18" rx="2"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.3;.55;.65;1" dur="8s" repeatCount="indefinite"/></rect>
+      <rect x="40" y="120" width="18" height="18" rx="2"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.34;.55;.65;1" dur="8s" repeatCount="indefinite"/></rect>
+      <rect x="80" y="0" width="18" height="18" rx="2"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.38;.55;.65;1" dur="8s" repeatCount="indefinite"/></rect>
+    </g>
+    <text x="79" y="178" text-anchor="middle" font-size="10" fill="#64748B">η × φ · pT-weighted · random masking</text>
+  </g>
+
+  <!-- arrows + encoder/decoder -->
+  <g transform="translate(230 70)">
+    <path d="M0 80 H34" stroke="#64748B" stroke-width="1.5" marker-end="none"/><path d="M28 74 L34 80 L28 86" fill="none" stroke="#64748B" stroke-width="1.5"/>
+    <!-- encoder trapezoid -->
+    <path d="M44 20 L124 50 L124 110 L44 140 Z" fill="#0B1020" stroke="url(#v)" stroke-width="1.5"/>
+    <text x="84" y="84" text-anchor="middle" font-size="11" font-weight="700" fill="#E9D5FF">ENCODER</text>
+    <text x="84" y="98" text-anchor="middle" font-size="9" fill="#94A3B8">visible tokens</text>
+    <!-- latent -->
+    <g transform="translate(140 56)">
+      <rect width="34" height="48" rx="6" fill="#0B1020" stroke="url(#o)" stroke-width="1.5"/>
+      <g fill="#FB923C">
+        <rect x="7" y="8" width="20" height="4" rx="2"><animate attributeName="width" values="8;20;12;20" dur="2s" repeatCount="indefinite"/></rect>
+        <rect x="7" y="16" width="14" height="4" rx="2"><animate attributeName="width" values="14;6;18;14" dur="2.2s" repeatCount="indefinite"/></rect>
+        <rect x="7" y="24" width="18" height="4" rx="2"><animate attributeName="width" values="18;10;20;18" dur="1.8s" repeatCount="indefinite"/></rect>
+        <rect x="7" y="32" width="10" height="4" rx="2"><animate attributeName="width" values="10;20;8;10" dur="2.4s" repeatCount="indefinite"/></rect>
+      </g>
+      <text x="17" y="64" text-anchor="middle" font-size="9" fill="#FED7AA">latent z</text>
+    </g>
+    <!-- decoder -->
+    <path d="M190 50 L270 20 L270 140 L190 110 Z" fill="#0B1020" stroke="url(#v)" stroke-width="1.5"/>
+    <text x="230" y="84" text-anchor="middle" font-size="11" font-weight="700" fill="#E9D5FF">DECODER</text>
+    <text x="230" y="98" text-anchor="middle" font-size="9" fill="#94A3B8">reconstruct masked</text>
+    <!-- flowing dots through -->
+    <circle r="3" fill="#22D3EE" filter="url(#glow)"><animateMotion dur="3s" repeatCount="indefinite" path="M0 80 H44 L124 80 H190 L270 80 H310"/></circle>
+    <circle r="3" fill="#22D3EE" filter="url(#glow)"><animateMotion dur="3s" begin="1s" repeatCount="indefinite" path="M0 80 H44 L124 80 H190 L270 80 H310"/></circle>
+    <circle r="3" fill="#22D3EE" filter="url(#glow)"><animateMotion dur="3s" begin="2s" repeatCount="indefinite" path="M0 80 H44 L124 80 H190 L270 80 H310"/></circle>
+    <text x="157" y="164" text-anchor="middle" font-size="10" fill="#64748B">masked reconstruction loss → pretrained tagger</text>
+  </g>
+
+  <!-- classifier output -->
+  <g transform="translate(600 70)">
+    <text y="-8" font-size="10" font-weight="700" letter-spacing="2" fill="#94A3B8">TAGGER OUTPUT</text>
+    <rect width="200" height="150" rx="14" fill="#0B1020" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <text x="16" y="34" font-size="11" fill="#CBD5E1">quark</text>
+    <rect x="70" y="24" width="110" height="12" rx="6" fill="#FFFFFF" fill-opacity=".08"/>
+    <rect x="70" y="24" width="90" height="12" rx="6" fill="url(#v)"><animate attributeName="width" values="0;90;90;30;30;90" keyTimes="0;.12;.5;.62;.9;1" dur="8s" repeatCount="indefinite"/></rect>
+    <text x="16" y="62" font-size="11" fill="#CBD5E1">gluon</text>
+    <rect x="70" y="52" width="110" height="12" rx="6" fill="#FFFFFF" fill-opacity=".08"/>
+    <rect x="70" y="52" width="20" height="12" rx="6" fill="url(#o)"><animate attributeName="width" values="0;20;20;80;80;20" keyTimes="0;.12;.5;.62;.9;1" dur="8s" repeatCount="indefinite"/></rect>
+    <line x1="16" y1="80" x2="184" y2="80" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <text x="16" y="100" font-size="9" fill="#64748B" letter-spacing="1.5">SHAP · TOP FEATURES</text>
+    <g font-size="9" fill="#94A3B8">
+      <text x="16" y="118">multiplicity</text><rect x="90" y="111" width="84" height="7" rx="3" fill="#22D3EE"><animate attributeName="width" values="0;84" dur="1.2s" begin=".2s" fill="freeze"/></rect>
+      <text x="16" y="131">pT dispersion</text><rect x="90" y="124" width="62" height="7" rx="3" fill="#22D3EE"><animate attributeName="width" values="0;62" dur="1.2s" begin=".4s" fill="freeze"/></rect>
+      <text x="16" y="144">jet width</text><rect x="90" y="137" width="41" height="7" rx="3" fill="#22D3EE"><animate attributeName="width" values="0;41" dur="1.2s" begin=".6s" fill="freeze"/></rect>
+    </g>
+  </g>
+
+  <!-- symbolic regression -->
+  <g transform="translate(840 70)">
+    <text y="-8" font-size="10" font-weight="700" letter-spacing="2" fill="#94A3B8">SYMBOLIC REGRESSION</text>
+    <rect width="328" height="150" rx="14" fill="#0B1020" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <text x="20" y="34" font-size="10" fill="#64748B">distill the tagger into a closed-form expression</text>
+    <g font-family="'JetBrains Mono', 'Fira Code', Menlo, monospace" font-size="13" fill="#E9D5FF">
+      <text x="20" y="72">f(jet) ≈ α·n<tspan baseline-shift="sub" font-size="9">const</tspan> + β·⟨ΔR⟩ − γ·p<tspan baseline-shift="sub" font-size="9">T</tspan><tspan baseline-shift="sub" font-size="9">D</tspan></text>
+    </g>
+    <!-- typing caret -->
+    <rect x="300" y="60" width="2" height="16" fill="#A855F7"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+    <!-- fit curve -->
+    <g transform="translate(20 92)">
+      <path d="M0 40 C40 38 70 30 100 22 S170 6 210 4 S270 2 288 2" fill="none" stroke="url(#c)" stroke-width="2" stroke-dasharray="320" stroke-dashoffset="0">
+        <animate attributeName="stroke-dashoffset" values="320;0" dur="2.4s" fill="freeze" calcMode="spline" keySplines=".4 0 .2 1"/>
+      </path>
+      <g fill="#FB923C">
+        <circle cx="12" cy="38" r="2.5"/><circle cx="48" cy="36" r="2.5"/><circle cx="96" cy="25" r="2.5"/><circle cx="140" cy="16" r="2.5"/><circle cx="188" cy="8" r="2.5"/><circle cx="236" cy="5" r="2.5"/><circle cx="276" cy="3" r="2.5"/>
+      </g>
+      <text x="288" y="44" text-anchor="end" font-size="9" fill="#64748B">neural vs symbolic agreement</text>
+    </g>
+  </g>
+
+  <text x="600" y="262" font-size="10" fill="#64748B">Why it matters: a tagger you can audit — attribution per constituent, and a formula a physicist can argue with.</text>
+</g>
+</svg>

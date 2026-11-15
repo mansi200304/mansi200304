@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-label="Cloud Forensics Pipeline: GuardDuty finding triggers preserve, EBS snapshot, live memory capture, and isolation in order of volatility, with every action appended to a SHA-256 hash-chained chain-of-custody ledger. First evidence preserved in under 10 seconds.">
+<defs>
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#151D3F"/><stop offset="1" stop-color="#0E142B"/></linearGradient>
+  <linearGradient id="c" x1="0" x2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+  <linearGradient id="o" x1="0" x2="1"><stop offset="0" stop-color="#FB923C"/><stop offset="1" stop-color="#F43F5E"/></linearGradient>
+  <linearGradient id="v" x1="0" x2="1"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#6366F1"/></linearGradient>
+  <linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#A3E635"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="310" rx="22" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <text x="32" y="38" font-size="12" font-weight="700" letter-spacing="3" fill="#A5F3FC">CLOUD FORENSICS PIPELINE · ORDER OF VOLATILITY</text>
+  <text x="1168" y="38" text-anchor="end" font-size="11" fill="#64748B">GuardDuty → EventBridge → Lambda → SSM · S3</text>
+
+  <!-- timeline track -->
+  <line x1="90" y1="96" x2="1110" y2="96" stroke="#FFFFFF" stroke-opacity=".1" stroke-width="3"/>
+  <line x1="90" y1="96" x2="1110" y2="96" stroke="url(#c)" stroke-width="3" stroke-dasharray="1020" stroke-dashoffset="1020">
+    <animate attributeName="stroke-dashoffset" values="1020;0;0;1020" keyTimes="0;.5;.9;1" dur="10s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- steps -->
+  <g text-anchor="middle">
+    <!-- 0 finding -->
+    <g transform="translate(90 96)">
+      <circle r="16" fill="#0B1020" stroke="url(#o)" stroke-width="2"/>
+      <circle r="16" fill="none" stroke="#FB923C" opacity="0"><animate attributeName="r" values="16;34" dur="10s" keyTimes="0;.12" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0;0" keyTimes="0;.12;1" dur="10s" repeatCount="indefinite"/></circle>
+      <path d="M0 -7 L7 5 H-7 Z" fill="#FB923C"/><rect x="-1" y="-2" width="2" height="4" fill="#0B1020"/>
+      <text y="42" font-size="11" font-weight="700" fill="#FFFFFF">GuardDuty finding</text>
+      <text y="57" font-size="10" fill="#64748B">t = 0</text>
+    </g>
+    <!-- 1 preserve -->
+    <g transform="translate(345 96)">
+      <circle r="16" fill="#0B1020" stroke="#22D3EE" stroke-width="2" opacity=".35"><animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.12;.14;.9;1" dur="10s" repeatCount="indefinite"/></circle>
+      <path d="M-5 -6 h10 v8 a5 5 0 0 1 -10 0 z" fill="#22D3EE"/>
+      <text y="42" font-size="11" font-weight="700" fill="#FFFFFF">1 · Preserve</text>
+      <text y="57" font-size="10" fill="#64748B">termination protection · tag</text>
+    </g>
+    <!-- 2 snapshot -->
+    <g transform="translate(600 96)">
+      <circle r="16" fill="#0B1020" stroke="#22D3EE" stroke-width="2" opacity=".35"><animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.25;.27;.9;1" dur="10s" repeatCount="indefinite"/></circle>
+      <ellipse rx="7" ry="3" cy="-4" fill="none" stroke="#22D3EE" stroke-width="1.6"/><path d="M-7 -4 v8 a7 3 0 0 0 14 0 v-8" fill="none" stroke="#22D3EE" stroke-width="1.6"/>
+      <text y="42" font-size="11" font-weight="700" fill="#FFFFFF">2 · Snapshot disk</text>
+      <text y="57" font-size="10" fill="#64748B">EBS, from outside the guest</text>
+    </g>
+    <!-- 3 memory -->
+    <g transform="translate(855 96)">
+      <circle r="16" fill="#0B1020" stroke="#22D3EE" stroke-width="2" opacity=".35"><animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.37;.39;.9;1" dur="10s" repeatCount="indefinite"/></circle>
+      <rect x="-7" y="-5" width="14" height="10" rx="2" fill="none" stroke="#22D3EE" stroke-width="1.6"/><path d="M-4 -8 v3 M0 -8 v3 M4 -8 v3 M-4 5 v3 M0 5 v3 M4 5 v3" stroke="#22D3EE" stroke-width="1.4"/>
+      <text y="42" font-size="11" font-weight="700" fill="#FFFFFF">3 · Capture memory</text>
+      <text y="57" font-size="10" fill="#64748B">AVML over SSM · 1 GB image</text>
+    </g>
+    <!-- 4 isolate -->
+    <g transform="translate(1110 96)">
+      <circle r="16" fill="#0B1020" stroke="#A855F7" stroke-width="2" opacity=".35"><animate attributeName="opacity" values=".35;.35;1;1;.35" keyTimes="0;.49;.51;.9;1" dur="10s" repeatCount="indefinite"/></circle>
+      <path d="M0 -8 L7 -5 V1 C7 5 3 8 0 9 C-3 8 -7 5 -7 1 V-5 Z" fill="none" stroke="#A855F7" stroke-width="1.6"/>
+      <text y="42" font-size="11" font-weight="700" fill="#FFFFFF">4 · Isolate</text>
+      <text y="57" font-size="10" fill="#64748B">no-ingress / no-egress SG</text>
+    </g>
+  </g>
+
+  <!-- moving responder dot -->
+  <circle r="6" fill="#FFFFFF" filter="url(#glow)">
+    <animateMotion dur="10s" repeatCount="indefinite" keyPoints="0;1;1;0" keyTimes="0;.5;.9;1" calcMode="linear" path="M90 96 H1110"/>
+  </circle>
+
+  <!-- stopwatch -->
+  <g transform="translate(32 206)" font-size="10">
+    <text y="0" fill="#94A3B8" letter-spacing="2" font-weight="700">FIRST EVIDENCE PRESERVED</text>
+    <g font-size="30" font-weight="800" fill="#FFFFFF">
+      <text y="40" opacity="1">0.0 s<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.04;.05;1" dur="10s" repeatCount="indefinite"/></text>
+      <text y="40" opacity="0">2.4 s<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.05;.06;.12;.13;1" dur="10s" repeatCount="indefinite"/></text>
+      <text y="40" opacity="0">5.1 s<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.13;.14;.25;.26;1" dur="10s" repeatCount="indefinite"/></text>
+      <text y="40" opacity="0">7.8 s<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.26;.27;.37;.38;1" dur="10s" repeatCount="indefinite"/></text>
+      <text y="40" opacity="0" fill="#A3E635">&lt; 10 s ✓<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.38;.39;.9;1" dur="10s" repeatCount="indefinite"/></text>
+    </g>
+    <text y="62" fill="#64748B">sample run · IOCs recovered after bash history was wiped: binary path · C2 · 3 persistence · backdoor user · SSH key</text>
+  </g>
+
+  <!-- hash-chained ledger -->
+  <g transform="translate(560 194)">
+    <text y="0" font-size="10" fill="#94A3B8" letter-spacing="2" font-weight="700">CHAIN-OF-CUSTODY LEDGER · ledger.jsonl · SHA-256 linked</text>
+    <g transform="translate(0 16)">
+      <!-- blocks -->
+      <g>
+        <rect x="0" y="0" width="86" height="44" rx="8" fill="#0B1020" stroke="url(#l)" stroke-width="1.5" opacity=".18"><animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.12;.14;1" dur="10s" repeatCount="indefinite"/></rect>
+        <text x="43" y="18" text-anchor="middle" font-size="9" font-weight="700" fill="#D9F99D" opacity="0">#1 preserve<animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.12;.14;1" dur="10s" repeatCount="indefinite"/></text>
+        <text x="43" y="33" text-anchor="middle" font-size="8" fill="#64748B" font-family="monospace" opacity="0">sha 3f9a…c1<animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.12;.14;1" dur="10s" repeatCount="indefinite"/></text>
+      </g>
+      <g transform="translate(106 0)">
+        <path d="M-20 22 H-4 M-9 17 L-4 22 L-9 27" fill="none" stroke="#A3E635" stroke-width="1.5" opacity=".18"><animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.24;.26;1" dur="10s" repeatCount="indefinite"/></path>
+        <rect width="86" height="44" rx="8" fill="#0B1020" stroke="url(#l)" stroke-width="1.5" opacity=".18"><animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.25;.27;1" dur="10s" repeatCount="indefinite"/></rect>
+        <text x="43" y="18" text-anchor="middle" font-size="9" font-weight="700" fill="#D9F99D" opacity="0">#2 snapshot<animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.25;.27;1" dur="10s" repeatCount="indefinite"/></text>
+        <text x="43" y="33" text-anchor="middle" font-size="8" fill="#64748B" font-family="monospace" opacity="0">prev 3f9a → 8be2…<animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.25;.27;1" dur="10s" repeatCount="indefinite"/></text>
+      </g>
+      <g transform="translate(212 0)">
+        <path d="M-20 22 H-4 M-9 17 L-4 22 L-9 27" fill="none" stroke="#A3E635" stroke-width="1.5" opacity=".18"><animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.36;.38;1" dur="10s" repeatCount="indefinite"/></path>
+        <rect width="86" height="44" rx="8" fill="#0B1020" stroke="url(#l)" stroke-width="1.5" opacity=".18"><animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.37;.39;1" dur="10s" repeatCount="indefinite"/></rect>
+        <text x="43" y="18" text-anchor="middle" font-size="9" font-weight="700" fill="#D9F99D" opacity="0">#3 memory<animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.37;.39;1" dur="10s" repeatCount="indefinite"/></text>
+        <text x="43" y="33" text-anchor="middle" font-size="8" fill="#64748B" font-family="monospace" opacity="0">prev 8be2 → d04f…<animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.37;.39;1" dur="10s" repeatCount="indefinite"/></text>
+      </g>
+      <g transform="translate(318 0)">
+        <path d="M-20 22 H-4 M-9 17 L-4 22 L-9 27" fill="none" stroke="#A3E635" stroke-width="1.5" opacity=".18"><animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.48;.5;1" dur="10s" repeatCount="indefinite"/></path>
+        <rect width="86" height="44" rx="8" fill="#0B1020" stroke="url(#l)" stroke-width="1.5" opacity=".18"><animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.49;.51;1" dur="10s" repeatCount="indefinite"/></rect>
+        <text x="43" y="18" text-anchor="middle" font-size="9" font-weight="700" fill="#D9F99D" opacity="0">#4 isolate<animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.49;.51;1" dur="10s" repeatCount="indefinite"/></text>
+        <text x="43" y="33" text-anchor="middle" font-size="8" fill="#64748B" font-family="monospace" opacity="0">prev d04f → 71aa…<animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.49;.51;1" dur="10s" repeatCount="indefinite"/></text>
+      </g>
+      <!-- verifier -->
+      <g transform="translate(430 0)">
+        <path d="M-26 22 H-4 M-9 17 L-4 22 L-9 27" fill="none" stroke="#A3E635" stroke-width="1.5" opacity=".18"><animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.6;.62;1" dur="10s" repeatCount="indefinite"/></path>
+        <rect width="178" height="44" rx="8" fill="#A3E635" fill-opacity=".12" stroke="url(#l)" stroke-width="1.5" opacity=".18"><animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.62;.64;1" dur="10s" repeatCount="indefinite"/></rect>
+        <text x="89" y="18" text-anchor="middle" font-size="10" font-weight="800" fill="#D9F99D" opacity="0">verify_ledger.py ✓ chain intact<animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.62;.64;1" dur="10s" repeatCount="indefinite"/></text>
+        <text x="89" y="33" text-anchor="middle" font-size="8" fill="#94A3B8" font-family="monospace" opacity="0">head 71aa…e9 · ~10 records · 0 breaks<animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.62;.64;1" dur="10s" repeatCount="indefinite"/></text>
+      </g>
+    </g>
+  </g>
+</g>
+</svg>
