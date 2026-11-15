@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="By the numbers: 5 peer-reviewed publications, 1 patent filing, 10+ security builds, 9 certifications">
+<defs>
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#151D3F"/>
+    <stop offset="1" stop-color="#0E142B"/>
+  </linearGradient>
+  <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#6366F1"/></linearGradient>
+  <linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#FB923C"/><stop offset="1" stop-color="#F43F5E"/></linearGradient>
+  <linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+  <linearGradient id="g4" x1="0" x2="1"><stop offset="0" stop-color="#A3E635"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
+  <linearGradient id="shine" x1="0" x2="1">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".35"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+
+<g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <!-- card 1 -->
+  <g transform="translate(0 0)">
+    <rect width="288" height="150" rx="20" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect x="0" y="0" width="288" height="4" rx="2" fill="url(#g1)"/>
+    <text x="28" y="74" font-size="52" font-weight="800" fill="#FFFFFF" letter-spacing="-2">5</text>
+    <text x="28" y="100" font-size="13" font-weight="700" letter-spacing="2" fill="#C4B5FD">PEER-REVIEWED PAPERS</text>
+    <text x="28" y="122" font-size="12" fill="#64748B">Stanford PAI26 · Springer · DRDO · IJARESM</text>
+    <rect x="28" y="130" width="232" height="3" rx="1.5" fill="#FFFFFF" fill-opacity=".08"/>
+    <rect x="28" y="130" width="0" height="3" rx="1.5" fill="url(#g1)"><animate attributeName="width" values="0;232" dur="1.6s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect>
+    <rect x="-120" y="0" width="120" height="150" fill="url(#shine)" opacity=".5"><animate attributeName="x" values="-120;300" dur="4s" begin="0s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- card 2 -->
+  <g transform="translate(304 0)">
+    <rect width="288" height="150" rx="20" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect x="0" y="0" width="288" height="4" rx="2" fill="url(#g2)"/>
+    <text x="28" y="74" font-size="52" font-weight="800" fill="#FFFFFF" letter-spacing="-2">1</text>
+    <text x="28" y="100" font-size="13" font-weight="700" letter-spacing="2" fill="#FED7AA">PATENT FILING</text>
+    <text x="28" y="122" font-size="12" fill="#64748B">SafeCount — secure e-voting · India 2024</text>
+    <rect x="28" y="130" width="232" height="3" rx="1.5" fill="#FFFFFF" fill-opacity=".08"/>
+    <rect x="28" y="130" width="0" height="3" rx="1.5" fill="url(#g2)"><animate attributeName="width" values="0;232" dur="1.6s" begin=".2s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect>
+    <rect x="-120" y="0" width="120" height="150" fill="url(#shine)" opacity=".5"><animate attributeName="x" values="-120;300" dur="4s" begin="1s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- card 3 -->
+  <g transform="translate(608 0)">
+    <rect width="288" height="150" rx="20" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect x="0" y="0" width="288" height="4" rx="2" fill="url(#g3)"/>
+    <text x="28" y="74" font-size="52" font-weight="800" fill="#FFFFFF" letter-spacing="-2">10+</text>
+    <text x="28" y="100" font-size="13" font-weight="700" letter-spacing="2" fill="#A5F3FC">SECURITY BUILDS</text>
+    <text x="28" y="122" font-size="12" fill="#64748B">SIEM · IR · XR sims · fraud ML · crypto</text>
+    <rect x="28" y="130" width="232" height="3" rx="1.5" fill="#FFFFFF" fill-opacity=".08"/>
+    <rect x="28" y="130" width="0" height="3" rx="1.5" fill="url(#g3)"><animate attributeName="width" values="0;232" dur="1.6s" begin=".4s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect>
+    <rect x="-120" y="0" width="120" height="150" fill="url(#shine)" opacity=".5"><animate attributeName="x" values="-120;300" dur="4s" begin="2s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- card 4 -->
+  <g transform="translate(912 0)">
+    <rect width="288" height="150" rx="20" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect x="0" y="0" width="288" height="4" rx="2" fill="url(#g4)"/>
+    <text x="28" y="74" font-size="52" font-weight="800" fill="#FFFFFF" letter-spacing="-2">9</text>
+    <text x="28" y="100" font-size="13" font-weight="700" letter-spacing="2" fill="#D9F99D">CERTIFICATIONS</text>
+    <text x="28" y="122" font-size="12" fill="#64748B">Google · Palo Alto · AWS · IBM · Anthropic</text>
+    <rect x="28" y="130" width="232" height="3" rx="1.5" fill="#FFFFFF" fill-opacity=".08"/>
+    <rect x="28" y="130" width="0" height="3" rx="1.5" fill="url(#g4)"><animate attributeName="width" values="0;232" dur="1.6s" begin=".6s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect>
+    <rect x="-120" y="0" width="120" height="150" fill="url(#shine)" opacity=".5"><animate attributeName="x" values="-120;300" dur="4s" begin="3s" repeatCount="indefinite"/></rect>
+  </g>
+</g>
+</svg>

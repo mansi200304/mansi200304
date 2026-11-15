@@ -1,239 +1,195 @@
 <div align="center">
 
-<img src="assets/quiet-operator-header.svg" width="100%" alt="Mansi Ganga Nayak — Cybersecurity, Research, Intelligence" />
+<img src="assets/hero.svg" width="100%" alt="Mansi Ganga Nayak — I build systems that detect, defend, and explain themselves." />
+
+<br/><br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-A855F7?style=for-the-badge&logo=githubpages&logoColor=white)](https://mansi200304.github.io/Cybersecurity-Portfolio---Mansi-Ganga-Nayak)
+[![XR Lab](https://img.shields.io/badge/XR%20Security%20Lab-FB923C?style=for-the-badge&logo=oculus&logoColor=white)](https://mansi200304.github.io/XR-and-Cybersecurity-Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mansiganganayak)
+[![Email](https://img.shields.io/badge/Email-22D3EE?style=for-the-badge&logo=gmail&logoColor=0B1020)](mailto:mnayak12@asu.edu)
 
 <br/>
 
-**Observe quietly. Understand deeply. Build relentlessly.**
-
-[Portfolio](https://mansi200304.github.io/Cybersecurity-Portfolio---Mansi-Ganga-Nayak) · [XR & Cybersecurity Lab](https://mansi200304.github.io/XR-and-Cybersecurity-Portfolio/) · [LinkedIn](https://linkedin.com/in/mansiganganayak) · [Email](mailto:mnayak12@asu.edu)
+<img src="assets/stats.svg" width="100%" alt="5 peer-reviewed papers · 1 patent filing · 10+ security builds · 9 certifications" />
 
 </div>
+
+<br/>
+
+## ⚡ TL;DR
+
+Cybersecurity grad researcher at **Arizona State University**. I work where security operations meets AI — building detection pipelines, forensics tooling, and cryptographic systems, then making sure a human can actually understand what they decided and why.
+
+Published at **Stanford PAI26 / NeurIPS 2026**, **Springer**, and **DRDO**. One patent filing. A habit of shipping things that look like products, not homework.
 
 <div align="center">
-<img src="assets/intelligence-console.svg" width="100%" alt="The Quiet Operator intelligence console: investigation, cryptography, AI explainability and secure systems" />
+<img src="assets/domains.svg" width="100%" alt="Three domains: Detect & Respond · Secure & Verify · Explain & Trust" />
 </div>
 
-<div align="center">
+<br/>
 
-[⌁ Research](#02--research-desk) · [◉ Projects](#03--selected-builds) · [⌘ Systems](#05--systems--signals) · [↗ Contact](mailto:mnayak12@asu.edu)
-
-</div>
-
----
-
-## 01 / The operator
-
-I’m a cybersecurity graduate researcher at **Arizona State University**, working across security engineering, AI security, cryptography, and applied research.
-
-My work moves between two questions:
-
-- How do we make complex systems more secure?
-- How do we make their decisions more understandable, verifiable, and trustworthy?
-
-I’ve explored post-quantum cryptography for autonomous robotic platforms, privacy-preserving data verification, interpretable machine learning, blockchain systems, and immersive cybersecurity environments.
-
-I’m particularly interested in the intersection of **digital forensics, incident response, threat intelligence, AI security, and cryptographic engineering**.
-
-<sub>TEMPE, ARIZONA · RESEARCH / SECURITY ENGINEERING / SYSTEMS</sub>
-
----
-
-## 02 / Research desk
-
-Five peer-reviewed publications · One patent filing · Research spanning Stanford PAI26, Springer, DRDO and IJARESM.
-
-### JetMAE — Interpretable Neural Tagging
-**PAI26, Stanford University / NeurIPS 2026**
-
-A masked-autoencoder approach to quark/gluon classification using 1 million LHC jets. The work combines masked reconstruction, SHAP attribution, and symbolic regression to examine how a neural tagger makes decisions.
-
-[Read the paper](https://openreview.net/attachment?id=nlt2r1P7yU&name=pdf)
-<div align="center">
-<img src="assets/jetmae-architecture.svg" width="100%" alt="JetMAE conceptual pipeline from particle-jet inputs through masked reconstruction and neural tagging to SHAP and symbolic-regression interpretability" />
-</div>
-
-
-### Quantum Cryptographic Encryption for P2P Robot Communication
-**DRDO Centre for AI and Robotics · 2024**
-
-A multi-layer cryptographic framework for peer-to-peer communication across five robotic platforms. Explores post-quantum key encapsulation, AES-256, RSA-4096, ECC, integrity hashing, and key exchange.
-
-[Read the research](https://drive.google.com/file/d/1y1S-4z8VWZj9rMacXHrjvW3rh4hd9Lzg/view)
-<div align="center">
-<img src="assets/robot-cryptography-topology.svg" width="100%" alt="Conceptual secure peer-to-peer communication topology across five robotic platforms" />
-</div>
-
-
-### Privacy-Preserving Data Verification
-**IJARESM · September 2024**
-
-An investigation of differential privacy and secure multi-party computation for data verification workflows, with attention to accuracy–privacy trade-offs.
-
-[Read the paper](https://ijaresm.com/uploaded_files/document_file/Mohammed_Emad_Sultan_SiddiqipInA.pdf)
-<div align="center">
-<img src="assets/privacy-verification-flow.svg" width="100%" alt="Conceptual privacy-preserving verification flow using differential privacy and secure multiparty computation" />
-</div>
-
-
-### Situational Awareness for Autonomous Vehicles
-**Springer · February 2026**
-
-Research into multimodal perception, sensor fusion, and threat scoring for autonomous vehicles operating under adverse conditions.
-
-[Read the chapter](https://link.springer.com/chapter/10.1007/978-3-032-14156-9_35)
-<div align="center">
-<img src="assets/autonomous-vehicle-sensor-fusion.svg" width="100%" alt="Conceptual autonomous vehicle sensor fusion and situational awareness pipeline" />
-</div>
-
-
-### Future Trends in Cybersecurity and Blockchain
-**Springer · February 2026**
-
-An analysis of AI-enabled threats, post-quantum transition, zero-trust architecture, smart-contract security, and tamper-evident audit trails.
-
-[Read the chapter](https://link.springer.com/chapter/10.1007/978-3-032-14156-9_37)
-
-**Patent filing** · *SafeCount — Two-Step Verification Based Secure Voting System* · India, 2024.
-
-<div align="center">
-<img src="assets/research-network.svg" width="92%" alt="Research map connecting AI security, cryptography, digital investigation, and trustworthy systems" />
-</div>
-
----
-
-## 03 / Selected builds
+## 🚀 Featured work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ◈ Jarvis Cyber Command Center
-`Three.js` · `WebXR` · `GLSL` · `Web Audio`
+### 🛡️ Security Incident Response Framework
+![Python](https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=A855F7)
+![Sigma](https://img.shields.io/badge/Sigma-0B1020?style=flat-square&logoColor=A855F7)
+![YARA-L](https://img.shields.io/badge/YARA--L-0B1020?style=flat-square&logoColor=A855F7)
+![Splunk](https://img.shields.io/badge/Splunk-0B1020?style=flat-square&logo=splunk&logoColor=A855F7)
 
-An immersive cyber-physical security simulator built around a holographic threat globe. Rotating HUD rings, radar-wave particles, simulated attack routes, a scrolling telemetry console, and a spoken AI-style narrator turn security events into an explorable environment.
+End-to-end SOC pipeline: synthetic telemetry → rule-based detection → AI-assisted triage → IOC extraction → severity scoring → playbooks. Six **MITRE ATT&CK**-mapped scenarios (phishing, ransomware, insider, lateral movement, cloud misconfig, DDoS). Containment ships with a dry-run path.
 
-**Explore:** [Source repository](https://github.com/mansi200304/VR-Security-Training) · [XR & Cybersecurity Lab](https://mansi200304.github.io/XR-and-Cybersecurity-Portfolio/)
-
-</td>
-<td width="50%" valign="top">
-
-### ◈ Security Incident Response Framework
-`Python` · `YARA-L` · `Sigma` · `Splunk`
-
-An end-to-end SOC workflow connecting synthetic event generation, rule-based detection, AI-assisted alert triage, IOC extraction, severity scoring, and response playbooks. Six MITRE ATT&CK-mapped scenarios cover phishing, ransomware, insider threats, lateral movement, cloud misconfiguration, and DDoS. Containment is designed with a dry-run path; performance figures are simulation results.\n\n[Explore the framework](https://github.com/mansi200304/security-incident-response-plan)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ◈ Cloud-Based SIEM
-`AWS` · `Splunk` · `Python` · `Lambda`
-
-A cloud-hosted monitoring pipeline for aggregating endpoint, network, and cloud events, with custom detection rules, alerting, and automated log ingestion.
+**[→ Explore the framework](https://github.com/mansi200304/security-incident-response-plan)**
 
 </td>
 <td width="50%" valign="top">
 
-### ◈ SafeCount — Secure EVM Voting
-`Blockchain` · `Solidity` · `Cryptography`
+### 🌐 Jarvis Cyber Command Center
+![Three.js](https://img.shields.io/badge/Three.js-0B1020?style=flat-square&logo=threedotjs&logoColor=FB923C)
+![WebXR](https://img.shields.io/badge/WebXR-0B1020?style=flat-square&logo=webgl&logoColor=FB923C)
+![GLSL](https://img.shields.io/badge/GLSL-0B1020?style=flat-square&logo=opengl&logoColor=FB923C)
+![Web Audio](https://img.shields.io/badge/Web%20Audio-0B1020?style=flat-square&logoColor=FB923C)
 
-A multi-factor electronic voting system concept combining identity verification, role separation, blockchain-backed validation, and tamper-evident records. Associated with the SafeCount patent filing.
+An immersive cyber-physical security simulator: holographic threat globe, live attack routes, radar-wave particles, scrolling telemetry console, and a spoken AI narrator. Security events you can walk around in.
+
+**[→ Source](https://github.com/mansi200304/VR-Security-Training) · [→ Live lab](https://mansi200304.github.io/XR-and-Cybersecurity-Portfolio/)**
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ◈ AWS Fraud Detection & Abuse Analyzer
-`Python` · `AWS` · `XGBoost` · `SHAP`
+### ☁️ Cloud Forensics Pipeline
+![AWS](https://img.shields.io/badge/AWS-0B1020?style=flat-square&logo=amazonwebservices&logoColor=22D3EE)
+![Lambda](https://img.shields.io/badge/Lambda-0B1020?style=flat-square&logo=awslambda&logoColor=22D3EE)
+![GuardDuty](https://img.shields.io/badge/GuardDuty-0B1020?style=flat-square&logoColor=22D3EE)
+![Python](https://img.shields.io/badge/Python-0B1020?style=flat-square&logo=python&logoColor=22D3EE)
 
-An ML-based cloud analytics concept for examining account takeover, cryptomining abuse, privilege escalation, data exfiltration, and suspicious API activity.
+Serverless IR for EC2: a GuardDuty finding triggers preserve → EBS snapshot → live memory capture (AVML over SSM) → isolate, in order of volatility. Every step lands in a **hash-chained chain-of-custody ledger** with an independent verifier. First evidence preserved in under 10 s; IOCs recovered from memory after the attacker wiped bash history.
+
+**[→ Repository](https://github.com/mansi200304/cloud-forensics-pipeline)**
 
 </td>
 <td width="50%" valign="top">
 
-### ◈ CyberGuard AI Security Assistant
-`Python` · `NLP` · `spaCy` · `REST API`
+### 🔍 AWS Fraud & Abuse Analyzer
+![XGBoost](https://img.shields.io/badge/XGBoost-0B1020?style=flat-square&logoColor=22D3EE)
+![SHAP](https://img.shields.io/badge/SHAP-0B1020?style=flat-square&logoColor=22D3EE)
+![AWS](https://img.shields.io/badge/AWS-0B1020?style=flat-square&logo=amazonwebservices&logoColor=22D3EE)
 
-An AI-assisted security learning platform in development, focused on adaptive threat scenarios and indicator-of-compromise extraction.
+ML detection for account takeover, cryptomining abuse, privilege escalation, exfiltration, and anomalous API activity — with SHAP attributions so every flag comes with a reason.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🗳️ SafeCount — Secure E-Voting
+![Solidity](https://img.shields.io/badge/Solidity-0B1020?style=flat-square&logo=solidity&logoColor=A3E635)
+![Blockchain](https://img.shields.io/badge/Blockchain-0B1020?style=flat-square&logoColor=A3E635)
+![Crypto](https://img.shields.io/badge/Cryptography-0B1020?style=flat-square&logoColor=A3E635)
+
+Two-step verified voting with identity checks, role separation, and tamper-evident on-chain records. **Patent filed, India 2024.**
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 CyberGuard AI Assistant
+![NLP](https://img.shields.io/badge/NLP-0B1020?style=flat-square&logoColor=A3E635)
+![spaCy](https://img.shields.io/badge/spaCy-0B1020?style=flat-square&logo=spacy&logoColor=A3E635)
+![REST](https://img.shields.io/badge/REST%20API-0B1020?style=flat-square&logoColor=A3E635)
+
+Adaptive security-training assistant: generates threat scenarios, extracts IOCs from free text, and scores analyst responses. In active development.
 
 </td>
 </tr>
 </table>
 
-### ◈ Cloud-Based Language Translator
-`Machine Learning` · `NLP` · `AWS`
+<br/>
 
-A cloud-deployed language translation project using neural machine-translation techniques and NLP. The focus is on making translation accessible through a scalable hosted service rather than limiting it to a local experiment.
+## 📄 Research
 
-**Explore:** [Source repository](https://github.com/mansi200304/Cloud-Based-Language-Translator)
+| Work | Venue | What it does | |
+|:--|:--|:--|:--|
+| **JetMAE** — Interpretable neural jet tagging | Stanford PAI26 · NeurIPS 2026 | Masked autoencoder on 1M LHC jets + SHAP + symbolic regression to expose *why* the tagger decides | [PDF](https://openreview.net/attachment?id=nlt2r1P7yU&name=pdf) |
+| **Post-quantum crypto for P2P robot comms** | DRDO CAIR · 2024 | Multi-layer PQ-KEM + AES-256 + ECC framework across five robotic platforms | [Paper](https://drive.google.com/file/d/1y1S-4z8VWZj9rMacXHrjvW3rh4hd9Lzg/view) |
+| **Situational awareness for autonomous vehicles** | Springer · 2026 | Multimodal sensor fusion + threat scoring under adverse conditions | [Chapter](https://link.springer.com/chapter/10.1007/978-3-032-14156-9_35) |
+| **Future trends: cybersecurity & blockchain** | Springer · 2026 | AI-enabled threats, PQ transition, zero-trust, smart-contract security | [Chapter](https://link.springer.com/chapter/10.1007/978-3-032-14156-9_37) |
+| **Privacy-preserving data verification** | IJARESM · 2024 | Differential privacy + secure MPC; accuracy/privacy trade-offs | [Paper](https://ijaresm.com/uploaded_files/document_file/Mohammed_Emad_Sultan_SiddiqipInA.pdf) |
+| **SafeCount** — Two-step verified secure voting | Patent filing · India 2024 | Identity + role separation + tamper-evident records | — |
 
-## 04 / How I approach a system
+<br/>
 
-I like projects where the technical pieces form a complete, inspectable workflow—not just a model or interface in isolation.
+## 🧰 Toolkit
 
-1. **Observe the system.** Identify assets, data flows, trust boundaries, and the signals that matter.
-2. **Model the risk.** Translate vague concerns into concrete threats, attack paths, failure modes, and measurable requirements.
-3. **Build the mechanism.** Implement detection, cryptographic controls, data processing, or interactive simulation with clear interfaces.
-4. **Validate the result.** Use test cases, controlled simulations, explainability, and measurable checks to understand what works and where it fails.
-5. **Make it legible.** Document the architecture and surface useful evidence so another engineer or analyst can reproduce the reasoning.
+**Security ops & forensics**<br/>
+![SIEM](https://img.shields.io/badge/SIEM-1E1B4B?style=for-the-badge&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-1E1B4B?style=for-the-badge&logo=splunk&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-1E1B4B?style=for-the-badge&logoColor=white)
+![YARA](https://img.shields.io/badge/YARA-1E1B4B?style=for-the-badge&logoColor=white)
+![Sigma](https://img.shields.io/badge/Sigma-1E1B4B?style=for-the-badge&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1E1B4B?style=for-the-badge&logo=wireshark&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-1E1B4B?style=for-the-badge&logo=linux&logoColor=white)
 
-That approach connects my work in digital investigation, AI security, cryptography, cloud systems, and immersive training.
+**Cryptography & distributed systems**<br/>
+![Post-Quantum](https://img.shields.io/badge/Post--Quantum%20Crypto-4C1D95?style=for-the-badge&logoColor=white)
+![AES / RSA / ECC](https://img.shields.io/badge/AES%20·%20RSA%20·%20ECC-4C1D95?style=for-the-badge&logoColor=white)
+![Differential Privacy](https://img.shields.io/badge/Differential%20Privacy-4C1D95?style=for-the-badge&logoColor=white)
+![Secure MPC](https://img.shields.io/badge/Secure%20MPC-4C1D95?style=for-the-badge&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-4C1D95?style=for-the-badge&logo=solidity&logoColor=white)
 
----
+**AI & data**<br/>
+![Python](https://img.shields.io/badge/Python-7C2D12?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-7C2D12?style=for-the-badge&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-7C2D12?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-7C2D12?style=for-the-badge&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-7C2D12?style=for-the-badge&logoColor=white)
+![spaCy](https://img.shields.io/badge/spaCy-7C2D12?style=for-the-badge&logo=spacy&logoColor=white)
 
-## 05 / Systems & signals
+**Cloud & build**<br/>
+![AWS](https://img.shields.io/badge/AWS-164E63?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Lambda](https://img.shields.io/badge/Lambda-164E63?style=for-the-badge&logo=awslambda&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-164E63?style=for-the-badge&logo=docker&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-164E63?style=for-the-badge&logo=gnubash&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-164E63?style=for-the-badge&logo=javascript&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-164E63?style=for-the-badge&logo=threedotjs&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-164E63?style=for-the-badge&logo=postgresql&logoColor=white)
+
+<br/>
+
+## 📈 Activity
 
 <div align="center">
-<img src="assets/security-telemetry.svg" width="100%" alt="Illustrative security telemetry visualization showing event flow, signal analysis, and investigation" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=mansi200304&show_icons=true&hide_border=true&bg_color=0B1020&title_color=A855F7&icon_color=FB923C&text_color=CBD5E1&ring_color=A855F7&include_all_commits=true&count_private=true" height="165" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mansi200304&layout=compact&hide_border=true&bg_color=0B1020&title_color=A855F7&text_color=CBD5E1&langs_count=8" height="165" alt="Top languages" />
+
+<img src="https://streak-stats.demolab.com/?user=mansi200304&hide_border=true&background=0B1020&ring=A855F7&fire=FB923C&currStreakLabel=FB923C&sideLabels=CBD5E1&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=64748B" alt="Contribution streak" />
+
 </div>
 
-**Security & investigation**  
-Incident response · Digital forensics · Threat intelligence · SIEM · Vulnerability assessment · Network security · Detection engineering · MITRE ATT&CK · YARA · Sigma
+<br/>
 
-**Cryptography & distributed systems**  
-Post-quantum cryptography · AES · RSA · ECC · Diffie–Hellman · Differential privacy · Secure multi-party computation · Blockchain · Smart contracts
+## 🎓 Certifications
 
-**AI & data science**  
-Python · PyTorch · scikit-learn · XGBoost · SHAP · NLP · Anomaly detection · Explainable AI · Data analysis
+`Google Network Security` · `Google Manage Security Risks` · `Palo Alto Cybersecurity Fundamentals` · `AWS Cloud Foundations` · `IBM Generative AI & Prompt Engineering` · `Anthropic AI Fluency` · `Claude 101` · `Vanderbilt Prompt Engineering` · `UMD Cybersecurity for Everyone`
 
-**Cloud & infrastructure**  
-AWS · EC2 · S3 · IAM · Lambda · CloudWatch · Docker · Linux · Bash
-
-**Development & immersive systems**  
-JavaScript · SQL · Solidity · Three.js · WebXR · GLSL · Streamlit
-
----
-
-## 06 / Certifications
-
-Anthropic AI Fluency Framework · Claude 101 · Palo Alto Cybersecurity Fundamentals · Google Network Security · Google Manage Security Risks · University of Maryland Cybersecurity for Everyone · IBM Generative AI & Prompt Engineering · Vanderbilt Prompt Engineering · AWS Cloud Foundations
-
----
-
-## 07 / Current trajectory
-
-I’m interested in opportunities and collaborations across:
-
-- Security engineering and security operations
-- Incident response and digital forensics
-- Threat intelligence and detection engineering
-- AI and machine-learning security
-- Cryptography and secure distributed systems
-- Cloud security and fraud analytics
-
-I value work that combines technical depth with practical impact—and teams that take rigorous investigation as seriously as implementation.
-
----
+<br/>
 
 <div align="center">
 
-**MANSI GANGA NAYAK**
+<img src="assets/footer.svg" width="100%" alt="Let's build something that holds up under attack." />
 
-<sub>RESEARCH WITH INTENT · ENGINEERING WITH PRECISION</sub>
+<br/><br/>
 
-[Portfolio](https://mansi200304.github.io/Cybersecurity-Portfolio---Mansi-Ganga-Nayak) · [LinkedIn](https://linkedin.com/in/mansiganganayak) · [Email](mailto:mnayak12@asu.edu)
+[![Portfolio](https://img.shields.io/badge/Portfolio-A855F7?style=for-the-badge&logo=githubpages&logoColor=white)](https://mansi200304.github.io/Cybersecurity-Portfolio---Mansi-Ganga-Nayak)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mansiganganayak)
+[![Email](https://img.shields.io/badge/mnayak12@asu.edu-22D3EE?style=for-the-badge&logo=gmail&logoColor=0B1020)](mailto:mnayak12@asu.edu)
+
+<sub>Tempe, Arizona · Detect · Defend · Explain</sub>
 
 </div>

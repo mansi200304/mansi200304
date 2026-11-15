@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Mansi Ganga Nayak — Security Engineer · AI Security Researcher · Cryptography">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0B1020"/>
+    <stop offset="1" stop-color="#121A3A"/>
+  </linearGradient>
+  <radialGradient id="violet" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#8B5CF6" stop-opacity=".95"/>
+    <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="orange" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#F97316" stop-opacity=".9"/>
+    <stop offset="1" stop-color="#F97316" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="cyan" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#22D3EE" stop-opacity=".6"/>
+    <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="accent" x1="0" x2="1">
+    <stop offset="0" stop-color="#A855F7"/>
+    <stop offset="1" stop-color="#FB923C"/>
+  </linearGradient>
+  <linearGradient id="nameGrad" x1="0" x2="1">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset=".55" stop-color="#E9D5FF"/>
+    <stop offset="1" stop-color="#FDBA74"/>
+  </linearGradient>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="1.2" cy="1.2" r="1.2" fill="#FFFFFF" opacity=".10"/>
+  </pattern>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="42"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="frame"><rect width="1200" height="400" rx="24"/></clipPath>
+</defs>
+
+<g clip-path="url(#frame)">
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <!-- drifting gradient blobs -->
+  <g filter="url(#blur)">
+    <circle cx="960" cy="90" r="230" fill="url(#violet)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -60 40; 20 -30; 0 0" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="340" r="200" fill="url(#orange)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -40 -50; -90 10; 0 0" dur="22s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="380" r="190" fill="url(#cyan)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 60 -40; 10 -70; 0 0" dur="26s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect width="1200" height="400" fill="url(#dots)"/>
+
+  <!-- orbit rings (right) -->
+  <g fill="none" stroke="#FFFFFF" stroke-opacity=".12" stroke-width="1.2" transform="translate(980 200)">
+    <circle r="150"/>
+    <circle r="110" stroke-dasharray="6 10">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="70" stroke-dasharray="2 8">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="28s" repeatCount="indefinite"/>
+    </circle>
+    <!-- satellites -->
+    <g>
+      <circle cx="150" cy="0" r="5" fill="#A855F7" stroke="none" filter="url(#glow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="-110" cy="0" r="4" fill="#FB923C" stroke="none" filter="url(#glow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="10s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="0" cy="-70" r="3.5" fill="#22D3EE" stroke="none" filter="url(#glow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <circle r="22" fill="#0B1020" stroke="url(#accent)" stroke-width="2"/>
+    <path d="M-8 2 L-3 7 L9 -6" stroke="url(#accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- eyebrow -->
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="72" y="86" width="10" height="10" rx="2" fill="url(#accent)"/>
+    <text x="92" y="96" font-size="14" font-weight="700" letter-spacing="3.5" fill="#C4B5FD">SECURITY · AI · CRYPTOGRAPHY</text>
+
+    <!-- name -->
+    <text x="70" y="178" font-size="64" font-weight="800" letter-spacing="-1.5" fill="url(#nameGrad)">Mansi Ganga Nayak</text>
+
+    <!-- tagline -->
+    <text x="72" y="222" font-size="22" font-weight="500" fill="#CBD5E1">I build systems that detect, defend, and explain themselves.</text>
+
+    <!-- animated accent bar -->
+    <rect x="72" y="248" width="0" height="4" rx="2" fill="url(#accent)">
+      <animate attributeName="width" values="0;260;260;0;0" keyTimes="0;.3;.7;.95;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- chips -->
+    <g font-size="13" font-weight="600" letter-spacing=".5">
+      <g transform="translate(72 286)">
+        <rect width="178" height="34" rx="17" fill="#FFFFFF" fill-opacity=".06" stroke="#A855F7" stroke-opacity=".6"/>
+        <circle cx="18" cy="17" r="4" fill="#A855F7"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+        <text x="32" y="22" fill="#E9D5FF">Grad Researcher · ASU</text>
+      </g>
+      <g transform="translate(262 286)">
+        <rect width="204" height="34" rx="17" fill="#FFFFFF" fill-opacity=".06" stroke="#FB923C" stroke-opacity=".6"/>
+        <circle cx="18" cy="17" r="4" fill="#FB923C"><animate attributeName="opacity" values="1;.3;1" dur="2s" begin=".6s" repeatCount="indefinite"/></circle>
+        <text x="32" y="22" fill="#FED7AA">5 publications · 1 patent</text>
+      </g>
+      <g transform="translate(478 286)">
+        <rect width="150" height="34" rx="17" fill="#FFFFFF" fill-opacity=".06" stroke="#22D3EE" stroke-opacity=".6"/>
+        <circle cx="18" cy="17" r="4" fill="#22D3EE"><animate attributeName="opacity" values="1;.3;1" dur="2s" begin="1.2s" repeatCount="indefinite"/></circle>
+        <text x="32" y="22" fill="#A5F3FC">Open to roles · 2026</text>
+      </g>
+    </g>
+
+    <!-- bottom location -->
+    <text x="72" y="356" font-size="12" letter-spacing="2.5" fill="#64748B" font-weight="600">TEMPE, AZ  ·  DFIR  ·  DETECTION ENGINEERING  ·  AI SECURITY  ·  POST-QUANTUM CRYPTO</text>
+  </g>
+
+  <!-- subtle border -->
+  <rect x=".5" y=".5" width="1199" height="399" rx="24" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+</g>
+</svg>

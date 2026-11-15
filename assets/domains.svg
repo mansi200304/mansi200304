@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Three domains: Detect and Respond, Secure and Verify, Explain and Trust">
+<defs>
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#151D3F"/><stop offset="1" stop-color="#0E142B"/></linearGradient>
+  <linearGradient id="v" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#6366F1"/></linearGradient>
+  <linearGradient id="o" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FB923C"/><stop offset="1" stop-color="#F43F5E"/></linearGradient>
+  <linearGradient id="c" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+
+  <!-- Card 1: Detect & Respond -->
+  <g transform="translate(0 0)">
+    <rect width="384" height="230" rx="22" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <!-- icon: radar -->
+    <g transform="translate(60 72)">
+      <circle r="36" fill="#A855F7" fill-opacity=".12"/>
+      <circle r="26" fill="none" stroke="url(#v)" stroke-width="1.5" stroke-opacity=".7"/>
+      <circle r="14" fill="none" stroke="url(#v)" stroke-width="1.5" stroke-opacity=".7"/>
+      <path d="M0 0 L0 -26 A26 26 0 0 1 18.4 -18.4 Z" fill="url(#v)" fill-opacity=".55">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/>
+      </path>
+      <circle cx="12" cy="-10" r="3" fill="#FFFFFF" filter="url(#glow)"><animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/></circle>
+      <circle r="3" fill="#A855F7"/>
+    </g>
+    <text x="118" y="60" font-size="12" font-weight="700" letter-spacing="3" fill="#C4B5FD">01</text>
+    <text x="118" y="88" font-size="24" font-weight="800" fill="#FFFFFF" letter-spacing="-.5">Detect &amp; Respond</text>
+    <text x="32" y="140" font-size="14" fill="#94A3B8">SOC workflows, SIEM pipelines, YARA / Sigma</text>
+    <text x="32" y="162" font-size="14" fill="#94A3B8">detections, MITRE ATT&amp;CK-mapped playbooks,</text>
+    <text x="32" y="184" font-size="14" fill="#94A3B8">cloud forensics and incident response.</text>
+    <rect x="32" y="204" width="56" height="3" rx="1.5" fill="url(#v)"/>
+  </g>
+
+  <!-- Card 2: Secure & Verify -->
+  <g transform="translate(408 0)">
+    <rect width="384" height="230" rx="22" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <!-- icon: lock / key with rotating hex -->
+    <g transform="translate(60 72)">
+      <circle r="36" fill="#FB923C" fill-opacity=".12"/>
+      <polygon points="0,-28 24,-14 24,14 0,28 -24,14 -24,-14" fill="none" stroke="url(#o)" stroke-width="1.5" stroke-opacity=".8">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
+      </polygon>
+      <rect x="-11" y="-4" width="22" height="17" rx="4" fill="url(#o)"/>
+      <path d="M-6 -4 V-9 A6 6 0 0 1 6 -9 V-4" fill="none" stroke="url(#o)" stroke-width="3"/>
+      <circle cy="4" r="2.4" fill="#0B1020"/>
+    </g>
+    <text x="118" y="60" font-size="12" font-weight="700" letter-spacing="3" fill="#FED7AA">02</text>
+    <text x="118" y="88" font-size="24" font-weight="800" fill="#FFFFFF" letter-spacing="-.5">Secure &amp; Verify</text>
+    <text x="32" y="140" font-size="14" fill="#94A3B8">Post-quantum key exchange for robot swarms,</text>
+    <text x="32" y="162" font-size="14" fill="#94A3B8">differential privacy, secure MPC, blockchain-</text>
+    <text x="32" y="184" font-size="14" fill="#94A3B8">backed voting with tamper-evident records.</text>
+    <rect x="32" y="204" width="56" height="3" rx="1.5" fill="url(#o)"/>
+  </g>
+
+  <!-- Card 3: Explain & Trust -->
+  <g transform="translate(816 0)">
+    <rect width="384" height="230" rx="22" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <!-- icon: neural nodes -->
+    <g transform="translate(60 72)" stroke="url(#c)" stroke-width="1.4" stroke-opacity=".7">
+      <circle r="36" fill="#22D3EE" fill-opacity=".12" stroke="none"/>
+      <path d="M-22 -16 L0 -4 M-22 16 L0 -4 M0 -4 L22 -14 M0 -4 L22 12 M-22 -16 L0 10 M-22 16 L0 10 M0 10 L22 12 M0 10 L22 -14" fill="none"/>
+      <g fill="#22D3EE" stroke="none">
+        <circle cx="-22" cy="-16" r="4"/><circle cx="-22" cy="16" r="4"/>
+        <circle cx="0" cy="-4" r="4.5"><animate attributeName="r" values="4.5;6.5;4.5" dur="2s" repeatCount="indefinite"/></circle>
+        <circle cx="0" cy="10" r="4.5"><animate attributeName="r" values="4.5;6.5;4.5" dur="2s" begin="1s" repeatCount="indefinite"/></circle>
+        <circle cx="22" cy="-14" r="4"/><circle cx="22" cy="12" r="4"/>
+      </g>
+      <circle cx="-22" cy="-16" r="2" fill="#FFFFFF" stroke="none"><animate attributeName="cx" values="-22;0;22" dur="2s" repeatCount="indefinite"/><animate attributeName="cy" values="-16;-4;-14" dur="2s" repeatCount="indefinite"/></circle>
+    </g>
+    <text x="118" y="60" font-size="12" font-weight="700" letter-spacing="3" fill="#A5F3FC">03</text>
+    <text x="118" y="88" font-size="24" font-weight="800" fill="#FFFFFF" letter-spacing="-.5">Explain &amp; Trust</text>
+    <text x="32" y="140" font-size="14" fill="#94A3B8">Interpretable ML for high-energy physics,</text>
+    <text x="32" y="162" font-size="14" fill="#94A3B8">SHAP + symbolic regression, fraud/abuse</text>
+    <text x="32" y="184" font-size="14" fill="#94A3B8">detection, and AI security assistants.</text>
+    <rect x="32" y="204" width="56" height="3" rx="1.5" fill="url(#c)"/>
+  </g>
+</g>
+</svg>

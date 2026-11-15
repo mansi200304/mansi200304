@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Let's build something that holds up under attack.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#1E1B4B"/>
+    <stop offset=".5" stop-color="#4C1D95"/>
+    <stop offset="1" stop-color="#9A3412"/>
+    <animate attributeName="x1" values="0;-.4;0" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="1;1.4;1" dur="12s" repeatCount="indefinite"/>
+  </linearGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#FFFFFF" opacity=".16"/></pattern>
+  <linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".8"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <clipPath id="frame"><rect width="1200" height="170" rx="24"/></clipPath>
+</defs>
+<g clip-path="url(#frame)" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="170" fill="url(#bg)"/>
+  <rect width="1200" height="170" fill="url(#dots)"/>
+  <rect x="-300" y="0" width="300" height="170" fill="url(#line)" opacity=".12"><animate attributeName="x" values="-300;1200" dur="5s" repeatCount="indefinite"/></rect>
+
+  <text x="60" y="76" font-size="34" font-weight="800" fill="#FFFFFF" letter-spacing="-.8">Let's build something that holds up under attack.</text>
+  <text x="60" y="112" font-size="16" fill="#E9D5FF">Open to security engineering, DFIR, detection engineering, and AI-security roles · 2026</text>
+
+  <g transform="translate(1040 54)">
+    <rect width="100" height="62" rx="16" fill="#FFFFFF" fill-opacity=".12" stroke="#FFFFFF" stroke-opacity=".3"/>
+    <path d="M30 31 H70 M56 19 L70 31 L56 43" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <animateTransform attributeName="transform" type="translate" values="0 0;6 0;0 0" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="169" rx="24" fill="none" stroke="#FFFFFF" stroke-opacity=".15"/>
+</g>
+</svg>
