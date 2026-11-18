@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Mansi Ganga Nayak — security engineer and AI-security researcher">
+  <defs>
+    <radialGradient id="glow" cx="34%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#f3ece0"/>
+      <stop offset="70%" stop-color="#e9dfcc"/>
+      <stop offset="100%" stop-color="#e2d5bd"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#2a0f16" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#glow)"/>
+  <rect width="1200" height="340" fill="url(#dots)"/>
+
+  <!-- menubar -->
+  <rect x="0" y="0" width="1200" height="34" fill="#f3ecdf" opacity="0.85"/>
+  <line x1="0" y1="34" x2="1200" y2="34" stroke="#2a0f16" opacity="0.16"/>
+  <rect x="26" y="13" width="9" height="9" rx="2" fill="#7a1f30" transform="rotate(45 30.5 17.5)"/>
+  <text x="46" y="22" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12.5" fill="#6e5556">mansi@workstation</text>
+  <text x="1174" y="22" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" fill="#6e5556">security · research · systems</text>
+
+  <!-- name -->
+  <text x="60" y="150" font-family="'Bodoni 72','Didot',Georgia,'Times New Roman',serif" font-size="78" font-weight="800" letter-spacing="-1" fill="#7a1f30">Mansi Ganga Nayak</text>
+  <text x="63" y="188" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="15.5" letter-spacing="1.5" fill="#3f6d93">SECURITY ENGINEER &#160;·&#160; AI-SECURITY RESEARCHER &#160;·&#160; ARIZONA STATE UNIVERSITY</text>
+
+  <line x1="63" y1="212" x2="1140" y2="212" stroke="#2a0f16" opacity="0.14"/>
+
+  <!-- tag chips -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12.5" fill="#2a0f16">
+    <g>
+      <rect x="63" y="236" width="196" height="30" rx="15" fill="none" stroke="#7a1f30" stroke-width="1.4"/>
+      <circle cx="80" cy="251" r="3.2" fill="#7a1f30"/>
+      <text x="92" y="255">Digital forensics &amp; IR</text>
+    </g>
+    <g>
+      <rect x="271" y="236" width="150" height="30" rx="15" fill="none" stroke="#7a1f30" stroke-width="1.4"/>
+      <circle cx="288" cy="251" r="3.2" fill="#7a1f30"/>
+      <text x="300" y="255">Cloud security</text>
+    </g>
+    <g>
+      <rect x="433" y="236" width="128" height="30" rx="15" fill="none" stroke="#7a1f30" stroke-width="1.4"/>
+      <circle cx="450" cy="251" r="3.2" fill="#7a1f30"/>
+      <text x="462" y="255">AI security</text>
+    </g>
+    <g>
+      <rect x="573" y="236" width="150" height="30" rx="15" fill="none" stroke="#7a1f30" stroke-width="1.4"/>
+      <circle cx="590" cy="251" r="3.2" fill="#7a1f30"/>
+      <text x="602" y="255">Cryptography</text>
+    </g>
+  </g>
+
+  <!-- stat strip -->
+  <g font-family="'Bodoni 72','Didot',Georgia,serif" fill="#7a1f30">
+    <text x="820" y="150" font-size="40" font-weight="800">9</text>
+    <text x="905" y="150" font-size="40" font-weight="800">1</text>
+    <text x="990" y="150" font-size="40" font-weight="800">2</text>
+    <text x="1075" y="150" font-size="40" font-weight="800">4</text>
+  </g>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10.5" fill="#6e5556">
+    <text x="820" y="168">papers</text>
+    <text x="905" y="168">patent</text>
+    <text x="990" y="168">live tools</text>
+    <text x="1075" y="168">hackathons</text>
+  </g>
+</svg>
