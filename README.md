@@ -3,7 +3,7 @@
 <img src="assets/header.svg" width="100%" alt="Mansi Ganga Nayak — cybersecurity and AI security research" />
 
 ### Mansi Ganga Nayak
-**Cybersecurity · AI Security Research · Software Engineering · Digital Forensics**
+**Software Engineer · Security Engineer · AI Security Researcher**
 
 *Observe quietly. Understand deeply. Build relentlessly.*
 
@@ -23,18 +23,27 @@
 
 I'm a **Master's student in Computer Science (Cybersecurity) at Arizona State University**, with an expected graduation date of **December 2027**. I began working on research with a professor in **October 2026**.
 
-I build and investigate systems at the intersection of **security engineering, cloud forensics, AI security, explainability, and software development**. I care about the details: what happens when a system fails, how evidence is preserved, and how we can make intelligent technology more trustworthy.
+I design and build software with security at its foundation. My work spans **software engineering, cloud infrastructure, cybersecurity, digital forensics, AI security, and explainable machine learning**. I care about the details: what happens when a system fails, how evidence is preserved, and how we can make intelligent technology more trustworthy.
 
 Outside conventional security workflows, I explore **immersive training, Earth-observation data, and human-centered interfaces**. My approach combines the rigor of a researcher with the curiosity of a builder.
 
 > **My story:** Understand the system → challenge its assumptions → build a safer version → document what the evidence actually shows.
+
+### 🎯 Two career paths, one engineering foundation
+
+| 💻 Software Development Engineering | 🛡️ Cybersecurity & Security Engineering |
+|:--|:--|
+| Programming, algorithms, data structures, application development, cloud services, and software architecture | Threat modeling, incident response, cloud forensics, IAM, security automation, and trustworthy AI |
+| **Proof of work:** [Ethereum course-registration application](https://github.com/mansi200304/Course_Registration_Ethereum), [NASA visualization](https://github.com/mansi200304/NASA-Hackathon), [JetMAE](https://github.com/mansi200304/JetMAE-Jet-Masked-Autoencoder), and the [interactive portfolio](https://mansi200304.github.io/mansi-s_portfolio/) | **Proof of work:** [Cloud Forensics Pipeline](https://github.com/mansi200304/cloud-forensics-pipeline), [Incident Response Framework](https://github.com/mansi200304/security-incident-response-plan), [VR Security Training](https://github.com/mansi200304/VR-Security-Training), and browser-based security tools |
+
+My focus is on **Summer 2027 SDE and security engineering internships**. I want to contribute to production systems that are dependable, maintainable, and secure.
 
 ### 🔭 Currently exploring
 
 - **AI security and trustworthy systems** — research and interpretable models
 - **Cloud security and digital forensics** — evidence, automation, and incident response
 - **Software engineering** — robust implementation, testing, and maintainable architectures
-- **Summer 2027 internships** — software development and cybersecurity engineering
+- **Summer 2027 internships** — SDE, security engineering, and related software-security roles
 
 ---
 
