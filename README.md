@@ -29,14 +29,51 @@ Outside conventional security workflows, I explore **immersive training, Earth-o
 
 > **My story:** Understand the system → challenge its assumptions → build a safer version → document what the evidence actually shows.
 
-### 🎯 Two career paths, one engineering foundation
+### 🎯 I build software. I secure systems.
 
-| 💻 Software Development Engineering | 🛡️ Cybersecurity & Security Engineering |
-|:--|:--|
-| Programming, algorithms, data structures, application development, cloud services, and software architecture | Threat modeling, incident response, cloud forensics, IAM, security automation, and trustworthy AI |
-| **Proof of work:** [Ethereum course-registration application](https://github.com/mansi200304/Course_Registration_Ethereum), [NASA visualization](https://github.com/mansi200304/NASA-Hackathon), [JetMAE](https://github.com/mansi200304/JetMAE-Jet-Masked-Autoencoder), and the [interactive portfolio](https://mansi200304.github.io/mansi-s_portfolio/) | **Proof of work:** [Cloud Forensics Pipeline](https://github.com/mansi200304/cloud-forensics-pipeline), [Incident Response Framework](https://github.com/mansi200304/security-incident-response-plan), [VR Security Training](https://github.com/mansi200304/VR-Security-Training), and browser-based security tools |
+**One engineering foundation. Two kinds of problems I love solving.** I'm targeting **Summer 2027 Software Development Engineer (SDE) and Security Engineering internships**.
 
-My focus is on **Summer 2027 SDE and security engineering internships**. I want to contribute to production systems that are dependable, maintainable, and secure.
+<!-- VISUAL 01: a bespoke dual-track illustration -->
+<div align="center"><img src="assets/engineering-paths.svg" width="100%" alt="Software engineering and security engineering—two disciplines united by reliable systems" /></div>
+
+<!-- VISUAL 02: paired feature panels -->
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 💻 Build / Software Engineering
+
+I enjoy turning complex requirements and messy data into understandable, usable software.
+
+**What I bring:** Python, Java, C/C++, JavaScript, problem solving, data processing, interactive web interfaces, and cloud-based automation.
+
+**Explore the work:** [Sinkronized](https://github.com/mansi200304/NASA-Hackathon) · [JetMAE](https://github.com/mansi200304/JetMAE-Jet-Masked-Autoencoder) · [Interactive Workstation](https://mansi200304.github.io/mansi-s_portfolio/)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🛡️ Protect / Security Engineering
+
+I investigate failure modes, automate defensive workflows, and care about evidence and trustworthy design.
+
+**What I bring:** AWS, IAM, forensics, incident response, threat analysis, cryptography, and security-focused research.
+
+**Explore the work:** [Cloud Forensics](https://github.com/mansi200304/cloud-forensics-pipeline) · [Incident Response](https://github.com/mansi200304/security-incident-response-plan) · [TriageLens & IAMSentry](https://mansi200304.github.io/mansi-s_portfolio/)
+
+</td>
+</tr>
+</table>
+
+<!-- VISUAL 03: evidence-first project spotlights -->
+#### ✦ Selected engineering evidence
+
+| 🔬 Real project | 💡 What it demonstrates | 🔗 See it |
+|:--|:--|:--|
+| **Sinkronized / NASA Space Apps** | Interactive geospatial product, multi-source radar-data processing, documented uncertainty and reproducibility | [Code & methodology](https://github.com/mansi200304/NASA-Hackathon) · [Live demo](https://sinkronized.vercel.app/web/) |
+| **Cloud Forensics Pipeline** | AWS Lambda / EventBridge orchestration, safe scope guards, independent hash-chain verification and a documented attack-to-investigation test | [Architecture & incident report](https://github.com/mansi200304/cloud-forensics-pipeline) |
+| **JetMAE** | Research-oriented machine learning implementation and model interpretation | [Repository](https://github.com/mansi200304/JetMAE-Jet-Masked-Autoencoder) |
+
+**What I'm building toward:** backend services, well-tested applications, clean APIs, CI workflows, and secure production-ready systems. I'm actively strengthening the software engineering side of my portfolio, rather than claiming every research repository is already a production app.
 
 ### 🔭 Currently exploring
 
