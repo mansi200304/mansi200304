@@ -1,142 +1,158 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Mansi Ganga Nayak — The Quiet Operator, a futuristic cybersecurity research laboratory" />
+<img src="assets/header.svg" width="100%" alt="Mansi Ganga Nayak — cybersecurity and AI security research" />
 
-### An origin story written in systems, not superpowers.
+### Mansi Ganga Nayak
+**Cybersecurity · AI Security Research · Software Engineering · Digital Forensics**
 
-**I study systems, question their assumptions, and engineer for what could go wrong.**
+*Observe quietly. Understand deeply. Build relentlessly.*
 
-[**ENTER THE LAB · PORTFOLIO**](https://mansi200304.github.io/mansi-s_portfolio/) &nbsp;·&nbsp; [**LINKEDIN**](https://linkedin.com/in/mansiganganayak) &nbsp;·&nbsp; [**CONTACT**](mailto:mnayak12@asu.edu)
+[![Portfolio](https://img.shields.io/badge/Explore_Portfolio-742C43?style=for-the-badge)](https://mansi200304.github.io/mansi-s_portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-28272C?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mansiganganayak)
+[![Email](https://img.shields.io/badge/Email-E7DCCF?style=for-the-badge&logo=gmail&logoColor=742C43)](mailto:mnayak12@asu.edu)
 
-`IVORY #F7F4EE` · `BEIGE #E7DCCF` · `BURGUNDY #742C43` · `GRAPHITE #28272C`
+`ASU · MSCS Cybersecurity · December 2027` &nbsp; `Tempe, Arizona`
 
-[01 · ORIGIN](#act-i--the-origin) · [02 · ARSENAL](#act-ii--the-arsenal) · [03 · INTELLIGENCE](#act-iii--the-intelligence-files) · [04 · MISSIONS](#act-iv--the-missions) · [05 · FRONTIER](#act-v--the-next-frontier)
+[About](#-about-me) · [Projects](#-featured-engineering-projects) · [Research](#-research--publications) · [Hackathons](#-hackathons--team-projects) · [Skills](#-technical-toolkit) · [Contact](#-connect)
 
 </div>
 
 ---
 
-## ACT I / THE ORIGIN
+## ✨ About me
 
-> **Every system has a story. Every vulnerability has a cause. Every solution begins with a question.**
+I'm a **Master's student in Computer Science (Cybersecurity) at Arizona State University**, with an expected graduation date of **December 2027**. I began working on research with a professor in **October 2026**.
 
-I'm **Mansi Ganga Nayak**, an **MS Computer Science student specializing in Cybersecurity at Arizona State University**, graduating **December 2027**. I began working on research with a professor in **October 2026**. My interests converge at the edges of **security engineering, AI security, digital forensics, cryptography, and software systems**.
+I build and investigate systems at the intersection of **security engineering, cloud forensics, AI security, explainability, and software development**. I care about the details: what happens when a system fails, how evidence is preserved, and how we can make intelligent technology more trustworthy.
 
-I don't see cybersecurity as a separate layer added after building. I see it as the architecture that makes ambitious technology worthy of trust.
+Outside conventional security workflows, I explore **immersive training, Earth-observation data, and human-centered interfaces**. My approach combines the rigor of a researcher with the curiosity of a builder.
 
-My laboratory has one operating principle: **observe quietly · understand deeply · build relentlessly**.
+> **My story:** Understand the system → challenge its assumptions → build a safer version → document what the evidence actually shows.
 
-<table><tr><td width="25%" align="center"><strong>01 / DEFEND</strong><br/>Security engineering</td><td width="25%" align="center"><strong>02 / INVESTIGATE</strong><br/>Forensics &amp; incident response</td><td width="25%" align="center"><strong>03 / REASON</strong><br/>AI security &amp; research</td><td width="25%" align="center"><strong>04 / BUILD</strong><br/>Software &amp; immersive systems</td></tr></table>
+### 🔭 Currently exploring
 
----
-
-## ACT II / THE ARSENAL
-
-*In a cinematic universe, every specialist has a role. In this lab, every repository has a mission.*
-
-| Division | System | Mission |
-|:--|:--|:--|
-| **THE SENTINEL** · Cloud defense | [Cloud Forensics Pipeline](https://github.com/mansi200304/cloud-forensics-pipeline) | Investigate cloud incidents, preserve evidence, and make response reproducible. |
-| **THE ANALYST** · AI research | [JetMAE](https://github.com/mansi200304/JetMAE-Jet-Masked-Autoencoder) | Explore representation learning and explainability in research workflows. |
-| **THE SIMULATOR** · Immersive security | [VR Security Training](https://github.com/mansi200304/VR-Security-Training) | Explore security training through immersive experiences. |
-| **THE ORBITAL DESK** · Earth systems | [NASA Hackathon](https://github.com/mansi200304/NASA-Hackathon) | Turn Earth-observation data into meaningful visual analysis. |
-| **THE RESPONSE UNIT** · Defense operations | [Security Incident Response Plan](https://github.com/mansi200304/security-incident-response-plan) | Structure threat detection and response around actionable playbooks. |
-| **THE PROTOCOL LAB** · Secure development | [Course Registration Ethereum](https://github.com/mansi200304/Course_Registration_Ethereum) | Examine decentralized application logic and smart-contract workflows. |
-
-<details><summary><b>OPEN THE TOOL VAULT / Browser-based experiments</b></summary>
-
-<br/>
-
-**TriageLens** — browser-based file triage exploring hashes, file signatures, and entropy.  
-**IAMSentry** — static IAM-policy analysis focused on privilege risk and least privilege.  
-**Cloud Fraud & Abuse Analyzer** — anomaly and abuse-detection experiments.  
-**BankSim Fraud-Detection Ensemble** — fraud-detection approaches with attention to evaluation and leakage.
-
-Explore the tools and supporting material through the [existing portfolio](https://mansi200304.github.io/mansi-s_portfolio/). Availability and implementation details are documented with the individual projects.
-
-</details>
+- **AI security and trustworthy systems** — research and interpretable models
+- **Cloud security and digital forensics** — evidence, automation, and incident response
+- **Software engineering** — robust implementation, testing, and maintainable architectures
+- **Summer 2027 internships** — software development and cybersecurity engineering
 
 ---
 
-## ACT III / THE INTELLIGENCE FILES
+## 🛡️ Featured engineering projects
 
-> **The most powerful tool in the room is the question nobody thought to ask.**
+*The laboratory is organized by problems, not fictional job titles. Every card leads to real work.*
 
-Research is where I challenge assumptions, document evidence, and explore how intelligent systems can be made safer and more interpretable.
-
-| Intelligence file | Focus | Reference |
+| Project | Engineering focus | Explore |
 |:--|:--|:--|
-| **Hippo** | Explainable, security-by-design health-insurance platform | [Portfolio](https://mansi200304.github.io/mansi-s_portfolio/) |
-| **Autonomous Cyber Weapons as AI-Enabled Digital Harms** | AI governance &amp; security | [CMU IDeaS paper](https://www.cmu.edu/ideas-social-cybersecurity/events/ideas-conferences/2026_ideas_conference_paper__18.pdf) |
-| **Democratic Accountability for Autonomous Systems** | Accountability for autonomous systems | [CMU IDeaS paper](https://www.cmu.edu/ideas-social-cybersecurity/events/ideas-conferences/2026_ideas_conference_paper__17.pdf) |
-| **JetMAE** | Interpretable machine learning | [Research paper](https://openreview.net/attachment?id=nlt2r1P7yU&name=pdf) |
+| ☁️ **Cloud Forensics Pipeline** | Event-driven AWS incident response, evidence capture, chain of custody | [Repository](https://github.com/mansi200304/cloud-forensics-pipeline) |
+| 🔎 **Security Incident Response Framework** | MITRE ATT&CK-mapped playbooks, detection, triage | [Repository](https://github.com/mansi200304/security-incident-response-plan) |
+| 🧠 **JetMAE — Jet Masked Autoencoder** | Machine-learning research and model interpretability | [Repository](https://github.com/mansi200304/JetMAE-Jet-Masked-Autoencoder) |
+| 🥽 **VR Security Training** | Immersive cybersecurity education and simulation | [Repository](https://github.com/mansi200304/VR-Security-Training) |
+| 🛰️ **NASA Space Apps — Sinkronized** | Earth observation, InSAR and subsidence visualization | [Repository](https://github.com/mansi200304/NASA-Hackathon) · [Live](https://sinkronized.vercel.app/web/) |
+| 🔐 **Course Registration on Ethereum** | Smart contracts and decentralized application workflows | [Repository](https://github.com/mansi200304/Course_Registration_Ethereum) |
+
+### 🧪 Live security experiments
+
+<table><tr><td width="50%" valign="top">
+
+**🧬 TriageLens — File Forensics**  
+Browser-based file analysis using hashes, file signatures, and entropy. Designed around local processing.
+
+</td><td width="50%" valign="top">
+
+**🔑 IAMSentry — IAM Policy Auditor**  
+Static AWS IAM policy inspection to surface privilege and configuration risks.
+
+</td></tr><tr><td width="50%" valign="top">
+
+**📈 Cloud Fraud & Abuse Analyzer**  
+Experiments in anomaly detection, supervised learning, and explainability for cloud abuse patterns.
+
+</td><td width="50%" valign="top">
+
+**💳 BankSim Fraud-Detection Ensemble**  
+Comparative fraud-detection approaches, including models that do not depend on fraud labels.
+
+</td></tr></table>
+
+**[Open the interactive workstation and project demos →](https://mansi200304.github.io/mansi-s_portfolio/)**
+
+---
+
+## 📚 Research & publications
+
+*Research is where I test ideas, document limitations, and learn to distinguish a promising result from a proven one.*
+
+| Research | Topic | Source |
+|:--|:--|:--|
+| **Hippo — Explainable, Security-by-Design Health Insurance Platform** | Security architecture, explainable decisions, protected data | [Portfolio overview](https://mansi200304.github.io/mansi-s_portfolio/) |
+| **Autonomous Cyber Weapons as AI-Enabled Digital Harms** | AI-enabled cyber harms and governance | [CMU IDeaS 2026](https://www.cmu.edu/ideas-social-cybersecurity/events/ideas-conferences/2026_ideas_conference_paper__18.pdf) |
+| **Democratic Accountability for Autonomous Systems** | Governance and accountability | [CMU IDeaS 2026](https://www.cmu.edu/ideas-social-cybersecurity/events/ideas-conferences/2026_ideas_conference_paper__17.pdf) |
+| **JetMAE** | Neural model interpretation | [Research PDF](https://openreview.net/attachment?id=nlt2r1P7yU&name=pdf) |
 | **Improving Situational Awareness of Autonomous Vehicles** | Autonomous-system safety | [Springer](https://link.springer.com/chapter/10.1007/978-3-032-14156-9_35) |
-| **Future Trends in Cybersecurity and Blockchain** | Security &amp; distributed systems | [Springer](https://link.springer.com/chapter/10.1007/978-3-032-14156-9_37) |
-| **Quantum Cryptographic Encryption for P2P Robot Communication** | Cryptography &amp; robotics | DRDO-related research, 2024 |
+| **Future Trends in Cybersecurity and Blockchain** | Security and distributed systems | [Springer](https://link.springer.com/chapter/10.1007/978-3-032-14156-9_37) |
+| **Quantum Cryptographic Encryption for P2P Robot Communication** | Cryptography and robotics | DRDO-related work, 2024 |
 | **Enhancing Data Verification Through Privacy-Preserving Techniques** | Privacy-preserving verification | [Paper](https://ijaresm.com/uploaded_files/document_file/Mohammed_Emad_Sultan_SiddiqipInA.pdf) |
 
-**Additional work:** Real Estate Price Predictor & Minor Extractable Values (Front-Running); *SafeCount* secure voting concept (patent filing referenced in prior portfolio materials).
-
-*Research claims, authorship, publication status, and intellectual-property status should be read alongside their linked primary records.*
+**Additional research and IP:** Real Estate Price Predictor & Minor Extractable Values (Front-Running); *SafeCount* two-step verification secure voting concept. Details and statuses are documented in the broader [portfolio](https://mansi200304.github.io/mansi-s_portfolio/).
 
 ---
 
-## ACT IV / THE MISSIONS
+## 🚀 Hackathons & team projects
 
-*Some problems are best solved by a team under a deadline.*
-
-| Mission | Setting | My focus |
+| Event | Project | Contribution / theme |
 |:--|:--|:--|
-| **[Sinkronized](https://github.com/mansi200304/NASA-Hackathon)** | NASA Space Apps 2026 | Earth-observation visualization and engineering · [Live experience](https://sinkronized.vercel.app/web/) |
-| **[Orbit](https://github.com/Manavpatel06/Orbit)** | Cubbie Hackathon / DevHacks ASU | Privacy-conscious agent coordination · [Live](https://orbit-cubbie.vercel.app) |
-| **[ARC](https://github.com/Manavpatel06/FLOCK)** | Devils Invent 2026 · Honeywell Aerospace × ASU | Security and radio-layer work |
-| **[Rice Matters](https://github.com/QuaanNguyen/border-collie)** | AIR Spark Hackathon · ASU | Observability for AI coding agents |
-
-These missions connect my security-first thinking with collaboration, prototyping, and systems beyond the conventional classroom.
+| **NASA Space Apps 2026** | [Sinkronized](https://github.com/mansi200304/NASA-Hackathon) | InSAR / Earth observation, land-subsidence visualization · [Demo](https://sinkronized.vercel.app/web/) |
+| **Cubbie Hackathon · DevHacks ASU** | [Orbit](https://github.com/Manavpatel06/Orbit) | Privacy-conscious agent coordination · [Demo](https://orbit-cubbie.vercel.app) |
+| **Devils Invent 2026 · Honeywell Aerospace × ASU** | [ARC](https://github.com/Manavpatel06/FLOCK) | Security and radio-layer engineering |
+| **AIR Spark Hackathon · ASU** | [Rice Matters](https://github.com/QuaanNguyen/border-collie) | Monitoring and reliability of AI coding agents |
 
 ---
 
-## ACT V / THE NEXT FRONTIER
+## ⚙️ Technical toolkit
 
-**2026 / THE RESEARCH ERA**  
-Deepen cybersecurity research, security engineering, and real-world systems work.
+**Security & investigation**  
+![Incident Response](https://img.shields.io/badge/Incident_Response-742C43?style=flat-square) ![Digital Forensics](https://img.shields.io/badge/Digital_Forensics-742C43?style=flat-square) ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-742C43?style=flat-square) ![Splunk](https://img.shields.io/badge/Splunk-742C43?style=flat-square&logo=splunk&logoColor=white) ![Sigma](https://img.shields.io/badge/Sigma-742C43?style=flat-square) ![YARA](https://img.shields.io/badge/YARA--L-742C43?style=flat-square)
 
-**SUMMER 2027 / THE FIELD MISSION**  
-Pursue a software engineering or cybersecurity internship where I can build reliable systems and learn from production-scale challenges.
+**Languages & software engineering**  
+![Python](https://img.shields.io/badge/Python-28272C?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-28272C?style=flat-square&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-28272C?style=flat-square&logo=cplusplus&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-28272C?style=flat-square&logo=javascript&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-28272C?style=flat-square&logo=postgresql&logoColor=white)
 
-**DECEMBER 2027 / THE NEXT CHAPTER**  
-Complete my MSCS at Arizona State University and keep building at the intersection of secure systems, AI, and software engineering.
-
-### The lab's operating stack
-
-**Security:** Digital forensics · Incident response · Threat modeling · IAM · MITRE ATT&CK · Cryptography  
-**Engineering:** Python · Java · C/C++ · JavaScript · SQL · AWS · Linux · Docker  
-**Research:** Machine learning · Explainability · Anomaly detection · Privacy-aware systems  
-**Exploration:** XR · Visualization · Earth observation · Human-centered security
+**Cloud, data & research**  
+![AWS](https://img.shields.io/badge/AWS-742C43?style=flat-square&logo=amazonwebservices&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-742C43?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-742C43?style=flat-square&logo=linux&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-742C43?style=flat-square&logo=pytorch&logoColor=white) ![scikit--learn](https://img.shields.io/badge/scikit--learn-742C43?style=flat-square&logo=scikitlearn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-742C43?style=flat-square) ![SHAP](https://img.shields.io/badge/SHAP-742C43?style=flat-square)
 
 ---
 
-## CONTROL ROOM / LIVE SIGNALS
+## 🏅 Learning & certifications
+
+AWS Academy Cloud Foundations · AI Fluency: Framework & Foundations (Anthropic) · Palo Alto Networks Cybersecurity Fundamentals · Google Networks & Network Security · Google Manage Security Risks · Cybersecurity for Everyone (University of Maryland)
+
+---
+
+## 📊 Engineering activity
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mansi200304&amp;show_icons=true&amp;title_color=742C43&amp;icon_color=742C43&amp;text_color=28272C&amp;bg_color=F7F4EE&amp;border_color=E7DCCF" alt="GitHub activity summary" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mansi200304&amp;layout=compact&amp;langs_count=8&amp;title_color=742C43&amp;text_color=28272C&amp;bg_color=F7F4EE&amp;border_color=E7DCCF" alt="GitHub repository languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=mansi200304&amp;show_icons=true&amp;title_color=742C43&amp;icon_color=742C43&amp;text_color=28272C&amp;bg_color=F7F4EE&amp;border_color=E7DCCF" alt="GitHub activity" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mansi200304&amp;layout=compact&amp;langs_count=8&amp;title_color=742C43&amp;text_color=28272C&amp;bg_color=F7F4EE&amp;border_color=E7DCCF" alt="Repository languages" />
 
-<sub>Live widgets depend on a third-party stats service; they are not measures of engineering ability.</sub>
+<sub>Activity widgets are automatically generated and may be temporarily unavailable.</sub>
 
 </div>
 
 ---
 
+## 🌷 Beyond the terminal
+
+I like technology that feels human: immersive interfaces, meaningful visualizations, thoughtful design, and explanations that make difficult concepts accessible. This is why my work moves between security labs, research papers, software tools, and experimental visual experiences.
+
+## 💌 Connect
+
 <div align="center">
 
-### THE QUIET OPERATOR
+**Let's build systems worth trusting.**
 
-**No spectacle without substance. No intelligence without responsibility.**
+[Portfolio](https://mansi200304.github.io/mansi-s_portfolio/) · [GitHub](https://github.com/mansi200304?tab=repositories) · [LinkedIn](https://linkedin.com/in/mansiganganayak) · [Email](mailto:mnayak12@asu.edu)
 
-[PORTFOLIO](https://mansi200304.github.io/mansi-s_portfolio/) · [REPOSITORIES](https://github.com/mansi200304?tab=repositories) · [LINKEDIN](https://linkedin.com/in/mansiganganayak) · [EMAIL](mailto:mnayak12@asu.edu)
-
-<sub>DESIGNED IN IVORY / BEIGE / BURGUNDY / GRAPHITE · BUILT FOR THE WORK AHEAD</sub>
+<sub>THE QUIET OPERATOR · IVORY / BEIGE / BURGUNDY / GRAPHITE</sub>
 
 </div>
