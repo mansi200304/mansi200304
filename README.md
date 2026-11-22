@@ -3,7 +3,7 @@
 <img src="assets/header.svg" width="100%" alt="Mansi Ganga Nayak — cybersecurity and AI security research" />
 
 ### Mansi Ganga Nayak
-**Software Engineer · Security Engineer · AI Security Researcher**
+**MSCS Candidate · Software Development & Security Engineering · AI Research**
 
 *Observe quietly. Understand deeply. Build relentlessly.*
 
@@ -18,6 +18,8 @@
 </div>
 
 ---
+
+<div align="center"><img src="assets/workstation.svg" width="100%" alt="Illustrated cozy cybersecurity engineering workstation with code terminal and cute operator mascot" /></div>
 
 ## ✨ About me
 
@@ -64,6 +66,8 @@ I investigate failure modes, automate defensive workflows, and care about eviden
 </tr>
 </table>
 
+<div align="center"><img src="assets/project-systems.svg" width="100%" alt="Three featured engineering systems: interactive geospatial application, cloud forensics, and machine learning research" /></div>
+
 <!-- VISUAL 03: evidence-first project spotlights -->
 #### ✦ Selected engineering evidence
 
@@ -73,7 +77,7 @@ I investigate failure modes, automate defensive workflows, and care about eviden
 | **Cloud Forensics Pipeline** | AWS Lambda / EventBridge orchestration, safe scope guards, independent hash-chain verification and a documented attack-to-investigation test | [Architecture & incident report](https://github.com/mansi200304/cloud-forensics-pipeline) |
 | **JetMAE** | Research-oriented machine learning implementation and model interpretation | [Repository](https://github.com/mansi200304/JetMAE-Jet-Masked-Autoencoder) |
 
-**What I'm building toward:** backend services, well-tested applications, clean APIs, CI workflows, and secure production-ready systems. I'm actively strengthening the software engineering side of my portfolio, rather than claiming every research repository is already a production app.
+**Next engineering focus:** backend services, API design, automated tests, CI workflows, and secure deployments. My projects demonstrate implementation and research; I am continuing to build production-style backend experience.
 
 ### 🔭 Currently exploring
 
@@ -95,7 +99,7 @@ I investigate failure modes, automate defensive workflows, and care about eviden
 | 🧠 **JetMAE — Jet Masked Autoencoder** | Machine-learning research and model interpretability | [Repository](https://github.com/mansi200304/JetMAE-Jet-Masked-Autoencoder) |
 | 🥽 **VR Security Training** | Immersive cybersecurity education and simulation | [Repository](https://github.com/mansi200304/VR-Security-Training) |
 | 🛰️ **NASA Space Apps — Sinkronized** | Earth observation, InSAR and subsidence visualization | [Repository](https://github.com/mansi200304/NASA-Hackathon) · [Live](https://sinkronized.vercel.app/web/) |
-| 🔐 **Course Registration on Ethereum** | Smart contracts and decentralized application workflows | [Repository](https://github.com/mansi200304/Course_Registration_Ethereum) |
+| 🔐 **Ethereum Course Registration** | Smart-contract coursework and decentralized application exploration | [Repository](https://github.com/mansi200304/Course_Registration_Ethereum) |
 
 ### 🧪 Live security experiments
 
