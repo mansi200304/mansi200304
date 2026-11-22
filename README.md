@@ -203,6 +203,6 @@ I like technology that feels human: immersive interfaces, meaningful visualizati
 
 [Portfolio](https://mansi200304.github.io/mansi-s_portfolio/) · [GitHub](https://github.com/mansi200304?tab=repositories) · [LinkedIn](https://linkedin.com/in/mansiganganayak) · [Email](mailto:mnayak12@asu.edu)
 
-<sub>THE QUIET OPERATOR · IVORY / BEIGE / BURGUNDY / GRAPHITE</sub>
+
 
 </div>
