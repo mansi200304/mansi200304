@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 210" role="img" aria-label="Animated security engineering workflow: observe, investigate, build, test, defend">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#F7F4EE"/><stop offset="1" stop-color="#E7DCCF"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#742C43" stroke-opacity=".07"/></pattern></defs>
+<rect width="1100" height="210" rx="16" fill="url(#bg)"/><rect width="1100" height="210" rx="16" fill="url(#grid)"/>
+<text x="35" y="33" font-family="monospace" font-size="13" letter-spacing="2" fill="#742C43">OPERATOR / SYSTEM LIFECYCLE</text>
+<text x="1065" y="33" text-anchor="end" font-family="monospace" font-size="12" fill="#742C43">SECURE BY DESIGN</text>
+<path d="M105 105H995" stroke="#BBA6AA" stroke-width="4" stroke-linecap="round"/>
+<path d="M105 105H995" stroke="#742C43" stroke-width="3" stroke-dasharray="8 16" opacity=".75"><animate attributeName="stroke-dashoffset" from="0" to="-48" dur="3s" repeatCount="indefinite"/></path>
+<g font-family="monospace" text-anchor="middle">
+<g><circle cx="105" cy="105" r="22" fill="#742C43"/><circle cx="105" cy="105" r="29" fill="none" stroke="#742C43" opacity=".3"><animate attributeName="r" values="26;36;26" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".4;0;.4" dur="3s" repeatCount="indefinite"/></circle><text x="105" y="111" font-size="17" fill="#fff">01</text><text x="105" y="155" font-size="16" fill="#28272C">OBSERVE</text></g>
+<g><circle cx="327" cy="105" r="22" fill="#742C43"/><text x="327" y="111" font-size="17" fill="#fff">02</text><text x="327" y="155" font-size="16" fill="#28272C">INVESTIGATE</text></g>
+<g><circle cx="550" cy="105" r="22" fill="#742C43"/><text x="550" y="111" font-size="17" fill="#fff">03</text><text x="550" y="155" font-size="16" fill="#28272C">BUILD</text></g>
+<g><circle cx="772" cy="105" r="22" fill="#742C43"/><text x="772" y="111" font-size="17" fill="#fff">04</text><text x="772" y="155" font-size="16" fill="#28272C">TEST</text></g>
+<g><circle cx="995" cy="105" r="22" fill="#742C43"/><text x="995" y="111" font-size="17" fill="#fff">05</text><text x="995" y="155" font-size="16" fill="#28272C">DEFEND</text></g></g>
+<circle r="8" fill="#B47C8B" stroke="#fff" stroke-width="3"><animateMotion dur="9s" repeatCount="indefinite" path="M105 105 L327 105 L550 105 L772 105 L995 105 L105 105"/></circle>
+<text x="550" y="192" text-anchor="middle" font-family="monospace" font-size="12" fill="#65565A">UNDERSTAND THE SYSTEM → CHALLENGE ASSUMPTIONS → SHIP WITH EVIDENCE</text>
+</svg>
