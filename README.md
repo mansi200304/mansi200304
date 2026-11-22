@@ -21,6 +21,8 @@
 
 <div align="center"><img src="assets/workstation.svg" width="100%" alt="Illustrated engineering and security workstation" /></div>
 
+<div align="center"><img src="assets/operator-flow.svg" width="100%" alt="Animated observe, investigate, build, test, defend engineering lifecycle" /></div>
+
 ## ✦ The investigator who builds
 
 > “In earlier days, the front door of our house was our security. Today, our security lies beneath our fingertips — in the code we write, the systems we design, and the vigilance we maintain.”
@@ -211,6 +213,8 @@ Racing and fast cars, archery, horse riding, LEGO builds, painting, sketching, d
 I am curious by nature, drawn to complex problems, and always looking for another perspective. The same curiosity that makes me take something apart to understand it is what brings me back to the terminal to build it better.
 
 ---
+
+<div align="center"><img src="assets/terminal-status.svg" width="100%" alt="Animated terminal: Build thoughtfully, test rigorously, secure by design" /></div>
 
 ## 💌 Connect
 
